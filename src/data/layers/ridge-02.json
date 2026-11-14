@@ -1,0 +1,279 @@
+{
+ "coordinates": [
+  [
+   51.93654895290412,
+   29.830614791904065
+  ],
+  [
+   52.46345104709589,
+   29.830614791904065
+  ],
+  [
+   52.46345104709589,
+   29.369385208095938
+  ],
+  [
+   51.93654895290412,
+   29.369385208095938
+  ]
+ ],
+ "bounds": [
+  51.93654895290412,
+  29.369385208095938,
+  52.46345104709589,
+  29.830614791904065
+ ],
+ "gridSize": 256,
+ "layers": [
+  {
+   "id": "slope",
+   "label": "Slope",
+   "kind": "classes",
+   "unit": "",
+   "classes": [
+    {
+     "label": "Under 5°",
+     "color": "#fde3d6"
+    },
+    {
+     "label": "5–10°",
+     "color": "#f7b598"
+    },
+    {
+     "label": "10–15°",
+     "color": "#eb6834"
+    },
+    {
+     "label": "15–25°",
+     "color": "#b8481f"
+    },
+    {
+     "label": "Over 25°",
+     "color": "#7a2c10"
+    }
+   ],
+   "source": {
+    "name": "Copernicus DEM GLO-30",
+    "url": "https://registry.opendata.aws/copernicus-dem/"
+   }
+  },
+  {
+   "id": "roughness",
+   "label": "Local roughness",
+   "kind": "continuous",
+   "unit": "m",
+   "min": 0,
+   "max": 80,
+   "stops": [
+    "#e5e1fa",
+    "#b5abee",
+    "#6250d6",
+    "#42349e",
+    "#2a1f66"
+   ],
+   "ticks": [
+    "0 m",
+    "40 m",
+    "80 m+"
+   ],
+   "source": {
+    "name": "Copernicus DEM GLO-30",
+    "url": "https://registry.opendata.aws/copernicus-dem/"
+   }
+  },
+  {
+   "id": "landcover",
+   "label": "Land cover",
+   "kind": "classes",
+   "unit": "",
+   "classes": [
+    {
+     "label": "Vegetation",
+     "color": "#199e70"
+    },
+    {
+     "label": "Bare or sparse ground",
+     "color": "#d95926"
+    },
+    {
+     "label": "Open water",
+     "color": "#3987e5"
+    },
+    {
+     "label": "Snow and ice",
+     "color": "#e8eef2"
+    },
+    {
+     "label": "Built-up",
+     "color": "#3b4148"
+    }
+   ],
+   "source": {
+    "name": "ESA WorldCover 2021",
+    "url": "https://esa-worldcover.org/"
+   }
+  },
+  {
+   "id": "water",
+   "label": "How often water is present",
+   "kind": "continuous",
+   "unit": "% of time",
+   "min": 1,
+   "max": 100,
+   "stops": [
+    "#cde2fb",
+    "#86b6ef",
+    "#2a78d6",
+    "#184f95",
+    "#0d366b"
+   ],
+   "ticks": [
+    "Rarely",
+    "Half the time",
+    "Always"
+   ],
+   "source": {
+    "name": "JRC Global Surface Water",
+    "url": "https://global-surface-water.appspot.com/"
+   }
+  }
+ ],
+ "charts": {
+  "climate": [
+   {
+    "month": "Jan",
+    "mean": 4.35,
+    "high": 21.14,
+    "low": -8.31,
+    "precipitation": 53.3
+   },
+   {
+    "month": "Feb",
+    "mean": 6.21,
+    "high": 22.24,
+    "low": -9.08,
+    "precipitation": 41.2
+   },
+   {
+    "month": "Mar",
+    "mean": 10.16,
+    "high": 29.2,
+    "low": -6.5,
+    "precipitation": 40.6
+   },
+   {
+    "month": "Apr",
+    "mean": 15.17,
+    "high": 31.57,
+    "low": -1.12,
+    "precipitation": 25.2
+   },
+   {
+    "month": "May",
+    "mean": 21.21,
+    "high": 37.87,
+    "low": 3.81,
+    "precipitation": 7.4
+   },
+   {
+    "month": "Jun",
+    "mean": 26.58,
+    "high": 40.39,
+    "low": 9.83,
+    "precipitation": 3.6
+   },
+   {
+    "month": "Jul",
+    "mean": 28.91,
+    "high": 41.92,
+    "low": 14.0,
+    "precipitation": 5.3
+   },
+   {
+    "month": "Aug",
+    "mean": 27.62,
+    "high": 41.18,
+    "low": 13.08,
+    "precipitation": 3.7
+   },
+   {
+    "month": "Sep",
+    "mean": 23.94,
+    "high": 37.77,
+    "low": 9.23,
+    "precipitation": 0.6
+   },
+   {
+    "month": "Oct",
+    "mean": 18.35,
+    "high": 32.6,
+    "low": 2.83,
+    "precipitation": 4.0
+   },
+   {
+    "month": "Nov",
+    "mean": 10.77,
+    "high": 26.99,
+    "low": -4.18,
+    "precipitation": 39.9
+   },
+   {
+    "month": "Dec",
+    "mean": 6.28,
+    "high": 22.16,
+    "low": -9.63,
+    "precipitation": 49.3
+   }
+  ],
+  "landCover": [
+   {
+    "label": "Vegetation",
+    "color": "#199e70",
+    "share": 81.7
+   },
+   {
+    "label": "Bare or sparse ground",
+    "color": "#d95926",
+    "share": 16.2
+   },
+   {
+    "label": "Open water",
+    "color": "#3987e5",
+    "share": 0.0
+   },
+   {
+    "label": "Snow and ice",
+    "color": "#e8eef2",
+    "share": 0.0
+   },
+   {
+    "label": "Built-up",
+    "color": "#3b4148",
+    "share": 2.1
+   }
+  ],
+  "slopeLabels": [
+   "Under 5°",
+   "5–10°",
+   "10–15°",
+   "15–25°",
+   "Over 25°"
+  ],
+  "slopeBins": {
+   "118": [
+    37.5,
+    22.8,
+    16.6,
+    16.6,
+    6.5
+   ],
+   "463": [
+    52.3,
+    22.7,
+    13.5,
+    10.4,
+    1.1
+   ]
+  }
+ }
+}

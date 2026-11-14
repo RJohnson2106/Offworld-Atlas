@@ -1,0 +1,1377 @@
+[
+ {
+  "id": "tenoumer-crater",
+  "name": "Tenoumer Crater",
+  "place": "Tiris Zemmour, Mauritania",
+  "target": "Moon",
+  "status": "candidate",
+  "feature": "Impact crater",
+  "continent": "Africa",
+  "region": "Mauritanian Sahara",
+  "lng": -10.408,
+  "lat": 22.918,
+  "iso3": "MRT",
+  "terrain": "Tenoumer is a simple, bowl-shaped impact crater 1.9 km in diameter in the desert of northern Mauritania.",
+  "analogRationale": "It could stand in for small simple craters on the Moon, where a bowl-shaped cavity and impact melt rocks are preserved at the surface. A literature search found no Moon or Mars analog study of it; an ESA blog post only remarks that the scene resembles what a crew arriving at Mars might see.",
+  "evidence": [
+   {
+    "text": "The Earth Impact Database lists Tenoumer as a confirmed impact crater 1.9 km in diameter, exposed at the surface, in a mixed target of sedimentary strata over crystalline basement.",
+    "source": {
+     "label": "Earth Impact Database, Africa table (archived 2023)",
+     "url": "https://web.archive.org/web/20230928064502/https://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Africa.html"
+    }
+   },
+   {
+    "text": "A 2016 study describes a simple bowl-shaped crater with heterogeneous impact melt rocks and reports an argon-argon age of 1.57 ± 0.14 million years; the Earth Impact Database still lists an older estimate of about 21,000 years.",
+    "source": {
+     "label": "Schultze et al. 2016, Meteoritics & Planetary Science",
+     "url": "https://doi.org/10.1111/maps.12593"
+    }
+   },
+   {
+    "text": "An astronaut photograph published by ESA shows the crater almost completely covered by dust and desert varnish, with sand trapped inside the depression.",
+    "source": {
+     "label": "ESA Caves and Pangaea blog: Tenoumer crater from the ISS",
+     "url": "https://blogs.esa.int/caves/?p=1459"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Earth Impact Database, Africa table (archived 2023)",
+    "url": "https://web.archive.org/web/20230928064502/https://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Africa.html"
+   },
+   {
+    "label": "Schultze et al. 2016, Meteoritics & Planetary Science",
+    "url": "https://doi.org/10.1111/maps.12593"
+   },
+   {
+    "label": "ESA Caves and Pangaea blog: Tenoumer crater from the ISS",
+    "url": "https://blogs.esa.int/caves/?p=1459"
+   }
+  ]
+ },
+ {
+  "id": "ouarkziz-crater",
+  "name": "Ouarkziz Crater",
+  "place": "Tindouf, Algeria",
+  "target": "Moon",
+  "status": "candidate",
+  "feature": "Impact crater",
+  "continent": "Africa",
+  "region": "Northwestern Sahara",
+  "lng": -7.552,
+  "lat": 29.012,
+  "iso3": "DZA",
+  "terrain": "Ouarkziz is a heavily eroded impact crater 3.5 km in diameter in layered sedimentary rock in northwestern Algeria, close to the border with Morocco.",
+  "analogRationale": "It could stand in for degraded impact craters whose circular structure is still traceable in bedrock layers. A literature search found no Moon or Mars analog study of it.",
+  "evidence": [
+   {
+    "text": "The Earth Impact Database lists Ouarkziz as a confirmed impact crater 3.5 km in diameter, less than 70 million years old, exposed at the surface in a sedimentary target.",
+    "source": {
+     "label": "Earth Impact Database, Africa table (archived 2023)",
+     "url": "https://web.archive.org/web/20230928064502/https://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Africa.html"
+    }
+   },
+   {
+    "text": "NASA Earth Observatory describes the crater as heavily eroded, with its circular shape outlined by exposures of older sedimentary rock layers that form ridgelines, and a younger stream channel cutting across its centre.",
+    "source": {
+     "label": "NASA Earth Observatory: Ouarkziz impact crater, Algeria",
+     "url": "https://science.nasa.gov/earth/earth-observatory/ouarkziz-impact-crater-algeria-77851"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Earth Impact Database, Africa table (archived 2023)",
+    "url": "https://web.archive.org/web/20230928064502/https://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Africa.html"
+   },
+   {
+    "label": "NASA Earth Observatory: Ouarkziz impact crater, Algeria",
+    "url": "https://science.nasa.gov/earth/earth-observatory/ouarkziz-impact-crater-algeria-77851"
+   }
+  ]
+ },
+ {
+  "id": "tin-bider-crater",
+  "name": "Tin Bider Crater",
+  "place": "In Salah, Algeria",
+  "target": "Moon",
+  "status": "candidate",
+  "feature": "Impact crater",
+  "continent": "Africa",
+  "region": "Central Algerian Sahara",
+  "lng": 5.112,
+  "lat": 27.602,
+  "iso3": "DZA",
+  "terrain": "Tin Bider is an impact structure 6 km in diameter with concentric rings, at the southern end of a range of hills in dry, rugged terrain in central Algeria.",
+  "analogRationale": "It could stand in for complex craters with terraced or ringed interiors on the Moon. A literature search found no Moon or Mars analog study of it.",
+  "evidence": [
+   {
+    "text": "The Earth Impact Database lists Tin Bider as a confirmed impact structure 6 km in diameter, less than 70 million years old, exposed at the surface in a sedimentary target.",
+    "source": {
+     "label": "Earth Impact Database, Africa table (archived 2023)",
+     "url": "https://web.archive.org/web/20230928064502/https://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Africa.html"
+    }
+   },
+   {
+    "text": "NASA Earth Observatory notes that the structure rises above the land to the south, east and west, and that its elevated position and concentric rings suggest it could be a complex crater.",
+    "source": {
+     "label": "NASA Earth Observatory: Tin Bider crater, Algeria",
+     "url": "https://science.nasa.gov/earth/earth-observatory/tin-bider-crater-algeria-47939"
+    }
+   },
+   {
+    "text": "A petrographic study of Albian sandstone samples found quartz grains with planar deformation features and estimated a local peak shock pressure of at least 20 GPa.",
+    "source": {
+     "label": "Kassab, Ferrière and Belhai, Meteoritics & Planetary Science",
+     "url": "https://doi.org/10.1111/maps.13766"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Earth Impact Database, Africa table (archived 2023)",
+    "url": "https://web.archive.org/web/20230928064502/https://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Africa.html"
+   },
+   {
+    "label": "NASA Earth Observatory: Tin Bider crater, Algeria",
+    "url": "https://science.nasa.gov/earth/earth-observatory/tin-bider-crater-algeria-47939"
+   },
+   {
+    "label": "Kassab, Ferrière and Belhai, Meteoritics & Planetary Science",
+    "url": "https://doi.org/10.1111/maps.13766"
+   }
+  ]
+ },
+ {
+  "id": "gweni-fada-crater",
+  "name": "Gweni-Fada Crater",
+  "place": "Ennedi-Ouest, Chad",
+  "target": "Moon",
+  "status": "candidate",
+  "feature": "Impact crater",
+  "continent": "Africa",
+  "region": "Ennedi Plateau",
+  "lng": 21.752,
+  "lat": 17.419,
+  "iso3": "TCD",
+  "terrain": "Gweni-Fada is an eroded impact structure in sandstone on the Ennedi Plateau of northeastern Chad, listed at 14 km in diameter and revised to 22 km from radar topography.",
+  "analogRationale": "It could stand in for eroded complex craters, with shocked rocks exposed in the central part of the structure. A literature search found no Moon or Mars analog study of it.",
+  "evidence": [
+   {
+    "text": "The Earth Impact Database lists Gweni-Fada as a confirmed impact structure 14 km in diameter, less than 345 million years old, exposed at the surface in a sedimentary target.",
+    "source": {
+     "label": "Earth Impact Database, Africa table (archived 2023)",
+     "url": "https://web.archive.org/web/20230928064502/https://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Africa.html"
+    }
+   },
+   {
+    "text": "A study using Shuttle Radar Topography Mission data revised the diameter to 22 km and found planar deformation features in quartz that indicate shock levels of 20 to 30 GPa in samples from the central part of the structure.",
+    "source": {
+     "label": "Koeberl et al. 2005, Meteoritics & Planetary Science",
+     "url": "https://doi.org/10.1111/j.1945-5100.2005.tb00412.x"
+    }
+   },
+   {
+    "text": "A NASA astronaut photograph taken in February 2026 describes Gweni-Fada as an eroded meteorite impact structure on the Ennedi Plateau.",
+    "source": {
+     "label": "NASA image: Crater Gweni-Fada from the International Space Station",
+     "url": "https://www.nasa.gov/?p=968059"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Earth Impact Database, Africa table (archived 2023)",
+    "url": "https://web.archive.org/web/20230928064502/https://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Africa.html"
+   },
+   {
+    "label": "Koeberl et al. 2005, Meteoritics & Planetary Science",
+    "url": "https://doi.org/10.1111/j.1945-5100.2005.tb00412.x"
+   },
+   {
+    "label": "NASA image: Crater Gweni-Fada from the International Space Station",
+    "url": "https://www.nasa.gov/?p=968059"
+   }
+  ]
+ },
+ {
+  "id": "jebel-waqf-as-suwwan",
+  "name": "Jebel Waqf as Suwwan",
+  "place": "Ma'an, Jordan",
+  "target": "Moon",
+  "status": "candidate",
+  "feature": "Impact crater",
+  "continent": "Asia",
+  "region": "Eastern Jordan Desert",
+  "lng": 36.805,
+  "lat": 31.047,
+  "iso3": "JOR",
+  "terrain": "Jebel Waqf as Suwwan is a moderately eroded complex impact structure about 5.5 to 6.1 km in diameter with a central uplift, in the desert of eastern Jordan near the Saudi border.",
+  "analogRationale": "It could stand in for small complex craters with a central uplift and rim faults, formed in a layered target. A literature search found no Moon or Mars analog study of it; published work treats it as a case study of cratering mechanics. A 2014 paper questioned the petrographic evidence for impact, but the impact origin is still accepted on the basis of shatter cones and shocked quartz.",
+  "evidence": [
+   {
+    "text": "The Earth Impact Database lists it as a confirmed impact structure 5.5 km in diameter, 56 to 37 million years old, exposed at the surface in a sedimentary target; the age is poorly constrained, and a 2011 conference abstract notes that a Miocene to Pliocene age has also been suggested.",
+    "source": {
+     "label": "Earth Impact Database, Asia and Russia table (archived 2023)",
+     "url": "https://web.archive.org/web/20231118160032/http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/AsiaRussia.html"
+    }
+   },
+   {
+    "text": "A structural study reports a complex crater eroded by 300 to 420 m, with an apparent diameter of 6.1 km, an original rim fault diameter of 7 km and a structural uplift of 250 to 350 m.",
+    "source": {
+     "label": "Kenkmann et al. 2017, Meteoritics & Planetary Science",
+     "url": "https://doi.org/10.1111/maps.12823"
+    }
+   },
+   {
+    "text": "The structure has a near-circular uplifted rim about 5.5 km wide and a prominent central uplift with shatter cones, set in a nearly horizontal sequence of Upper Cretaceous to Paleogene sandstones, limestones, marls and cherts.",
+    "source": {
+     "label": "Bläß, Schmieder and Buchner 2011, EGU General Assembly abstract",
+     "url": "https://meetingorganizer.copernicus.org/EGU2011/EGU2011-7559.pdf"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Earth Impact Database, Asia and Russia table (archived 2023)",
+    "url": "https://web.archive.org/web/20231118160032/http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/AsiaRussia.html"
+   },
+   {
+    "label": "Kenkmann et al. 2017, Meteoritics & Planetary Science",
+    "url": "https://doi.org/10.1111/maps.12823"
+   },
+   {
+    "label": "Bläß, Schmieder and Buchner 2011, EGU General Assembly abstract",
+    "url": "https://meetingorganizer.copernicus.org/EGU2011/EGU2011-7559.pdf"
+   },
+   {
+    "label": "University of Freiburg project page: impact crater Jebel Waqf as Suwwan",
+    "url": "https://www.kenkmann.uni-freiburg.de/projekte-en/completed/impaktkrater-jebel-waqf-as-suwwan"
+   }
+  ]
+ },
+ {
+  "id": "tabun-khara-obo-crater",
+  "name": "Tabun-Khara-Obo Crater",
+  "place": "Dornogovi, Mongolia",
+  "target": "Moon",
+  "status": "candidate",
+  "feature": "Impact crater",
+  "continent": "Asia",
+  "region": "Eastern Gobi",
+  "lng": 109.656,
+  "lat": 44.131,
+  "iso3": "MNG",
+  "terrain": "Tabun-Khara-Obo is a simple, bowl-shaped impact crater 1.3 km in diameter on a flat plateau in the Gobi Desert of southeastern Mongolia.",
+  "analogRationale": "It could stand in for small simple craters on the Moon, with a preserved raised rim and breccias on the rim flank. A literature search found no Moon or Mars analog study of it.",
+  "evidence": [
+   {
+    "text": "The Earth Impact Database lists Tabun-Khara-Obo as a confirmed impact crater 1.3 km in diameter, exposed at the surface in a crystalline target.",
+    "source": {
+     "label": "Earth Impact Database, Asia and Russia table (archived 2023)",
+     "url": "https://web.archive.org/web/20231118160032/http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/AsiaRussia.html"
+    }
+   },
+   {
+    "text": "The crater rim rises 20 to 30 m above the floor of the depression, and quartz with planar deformation features in drill core samples confirmed the impact origin in 2009.",
+    "source": {
+     "label": "GSA Annual Meeting 2009 abstract: Impact origin of Tabun Khara Obo crater confirmed by drill core studies",
+     "url": "https://studio.m-anage.com/gsa/2009AM/webprogram/Paper165663.html"
+    }
+   },
+   {
+    "text": "It is the only currently known impact crater in Mongolia, centred at 44°07'50\"N, 109°39'20\"E, with a gravity anomaly of -2.5 to -3 mGal and breccias along the crater periphery.",
+    "source": {
+     "label": "Amgaa et al. 2021, GSA Special Paper 550",
+     "url": "https://doi.org/10.1130/2021.2550(04)"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Earth Impact Database, Asia and Russia table (archived 2023)",
+    "url": "https://web.archive.org/web/20231118160032/http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/AsiaRussia.html"
+   },
+   {
+    "label": "GSA Annual Meeting 2009 abstract: Impact origin of Tabun Khara Obo crater confirmed by drill core studies",
+    "url": "https://studio.m-anage.com/gsa/2009AM/webprogram/Paper165663.html"
+   },
+   {
+    "label": "Amgaa et al. 2021, GSA Special Paper 550",
+    "url": "https://doi.org/10.1130/2021.2550(04)"
+   },
+   {
+    "label": "NASA Earth Observatory: Tabun-Khara-Obo, Mongolia",
+    "url": "https://science.nasa.gov/earth/earth-observatory/tabun-khara-obo-mongolia-40072/"
+   }
+  ]
+ },
+ {
+  "id": "zhamanshin-crater",
+  "name": "Zhamanshin Crater",
+  "place": "Aktobe Region, Kazakhstan",
+  "target": "Moon",
+  "status": "candidate",
+  "feature": "Impact crater",
+  "continent": "Asia",
+  "region": "Kazakh semidesert",
+  "lng": 60.967,
+  "lat": 48.4,
+  "iso3": "KAZ",
+  "terrain": "Zhamanshin is an impact structure about 14 km in diameter and less than 1 million years old, in an arid sedimentary platform in Kazakhstan.",
+  "analogRationale": "It could stand in for young complex craters and for the question of how fast crater relief degrades, because its present form is far more subdued than its age suggests. A literature search found no Moon or Mars analog study of it; published work compares its morphology with other terrestrial and lunar craters.",
+  "evidence": [
+   {
+    "text": "The Earth Impact Database lists Zhamanshin as a confirmed impact structure 14 km in diameter, 0.9 ± 0.1 million years old, exposed at the surface and drilled.",
+    "source": {
+     "label": "Earth Impact Database, Asia and Russia table (archived 2023)",
+     "url": "https://web.archive.org/web/20231118160032/http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/AsiaRussia.html"
+    }
+   },
+   {
+    "text": "Drilling and geophysical data indicate a pre-erosional diameter of at least 13.5 km and a most probable age of 0.87 million years, yet the structure shows almost none of the usual landforms of a complex crater of that size.",
+    "source": {
+     "label": "Garvin and Schnetzler 1992, NASA Technical Reports Server",
+     "url": "https://ntrs.nasa.gov/citations/19930000951"
+    }
+   },
+   {
+    "text": "A 2026 preprint using high-resolution topography argues that the impact produced a multi-ring crater about 26.5 km in diameter, at least twice earlier estimates.",
+    "source": {
+     "label": "Garvin et al. 2026, arXiv preprint 2604.04884",
+     "url": "https://arxiv.org/abs/2604.04884"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Earth Impact Database, Asia and Russia table (archived 2023)",
+    "url": "https://web.archive.org/web/20231118160032/http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/AsiaRussia.html"
+   },
+   {
+    "label": "Garvin and Schnetzler 1992, NASA Technical Reports Server",
+    "url": "https://ntrs.nasa.gov/citations/19930000951"
+   },
+   {
+    "label": "Garvin et al. 2026, arXiv preprint 2604.04884",
+    "url": "https://arxiv.org/abs/2604.04884"
+   }
+  ]
+ },
+ {
+  "id": "kara-kul-structure",
+  "name": "Kara-Kul Structure",
+  "place": "Gorno-Badakhshan, Tajikistan",
+  "target": "Mars",
+  "status": "candidate",
+  "feature": "Impact structure",
+  "continent": "Asia",
+  "region": "Eastern Pamir",
+  "lng": 73.56,
+  "lat": 39.0125,
+  "iso3": "TJK",
+  "terrain": "Kara-Kul is a basin about 52 km in diameter at roughly 4,000 m elevation in the eastern Pamir, holding a closed lake 25 km across.",
+  "analogRationale": "It could stand in for closed-basin crater lakes on early Mars, since a lake with no outlet sits inside a large circular depression in a cold, dry mountain desert. A literature search found no Mars analog study of it. The Earth Impact Database lists it as an impact structure, while a 2016 lake study describes the basin as a fault-bounded graben.",
+  "evidence": [
+   {
+    "text": "The Earth Impact Database lists Kara-Kul as a confirmed impact structure 52 km in diameter, less than 5 million years old, exposed at the surface in a crystalline target.",
+    "source": {
+     "label": "Earth Impact Database, Asia and Russia table (archived 2023)",
+     "url": "https://web.archive.org/web/20231118160032/http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/AsiaRussia.html"
+    }
+   },
+   {
+    "text": "NASA Earth Observatory gives a lake diameter of 25 km, a rim diameter of 45 km, an elevation of about 4,000 m and an impact age of approximately 25 million years.",
+    "source": {
+     "label": "NASA Earth Observatory: Kara-Kul structure, Tajikistan",
+     "url": "https://science.nasa.gov/earth/earth-observatory/kara-kul-structure-tajikistan-4537"
+    }
+   },
+   {
+    "text": "The meteorological station at the lake records a mean annual precipitation of 82 mm and a mean annual temperature of -3.9 °C, and the lake is fed mainly by meltwater from glaciers, snow fields and frozen ground.",
+    "source": {
+     "label": "Heinecke et al. 2016, Climate of the Past Discussions",
+     "url": "https://doi.org/10.5194/cp-2016-34"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Earth Impact Database, Asia and Russia table (archived 2023)",
+    "url": "https://web.archive.org/web/20231118160032/http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/AsiaRussia.html"
+   },
+   {
+    "label": "NASA Earth Observatory: Kara-Kul structure, Tajikistan",
+    "url": "https://science.nasa.gov/earth/earth-observatory/kara-kul-structure-tajikistan-4537"
+   },
+   {
+    "label": "Heinecke et al. 2016, Climate of the Past Discussions",
+    "url": "https://doi.org/10.5194/cp-2016-34"
+   }
+  ]
+ },
+ {
+  "id": "connolly-basin",
+  "name": "Connolly Basin",
+  "place": "Western Australia, Australia",
+  "target": "Moon",
+  "status": "candidate",
+  "feature": "Impact crater",
+  "continent": "Oceania",
+  "region": "Gibson Desert",
+  "lng": 124.757,
+  "lat": -23.538,
+  "iso3": "AUS",
+  "terrain": "Connolly Basin is a rimmed impact structure 9 km in diameter in the Gibson Desert, with a subdued rim around a central playa.",
+  "analogRationale": "It could stand in for complex craters with a central uplift, and for testing how well orbital radar maps a crater that is hard to see on the ground. A literature search found no Moon or Mars analog study of it.",
+  "evidence": [
+   {
+    "text": "The Earth Impact Database lists Connolly Basin as a confirmed impact structure 9 km in diameter, less than 60 million years old, exposed at the surface in a sedimentary target.",
+    "source": {
+     "label": "Earth Impact Database, Australia table (archived 2023)",
+     "url": "https://web.archive.org/web/20230928064236/https://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Australia.html"
+    }
+   },
+   {
+    "text": "The outer rim rises 25 to 40 m above the surrounding lateritic plains and encloses a central playa with a 1 km wide zone of chaotically uplifted Permian sandstone blocks.",
+    "source": {
+     "label": "McHone et al. 2001, Lunar and Planetary Science Conference abstract 2065",
+     "url": "https://www.lpi.usra.edu/meetings/lpsc2001/pdf/2065.pdf"
+    }
+   },
+   {
+    "text": "The structure appears nearly featureless to observers on the ground, but its size and structure are prominent in 1994 Space Shuttle imaging radar at three wavelengths.",
+    "source": {
+     "label": "McHone et al. 2001, Lunar and Planetary Science Conference abstract 2065",
+     "url": "https://www.lpi.usra.edu/meetings/lpsc2001/pdf/2065.pdf"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Earth Impact Database, Australia table (archived 2023)",
+    "url": "https://web.archive.org/web/20230928064236/https://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Australia.html"
+   },
+   {
+    "label": "McHone et al. 2001, Lunar and Planetary Science Conference abstract 2065",
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2001/pdf/2065.pdf"
+   }
+  ]
+ },
+ {
+  "id": "lake-acraman",
+  "name": "Lake Acraman",
+  "place": "South Australia, Australia",
+  "target": "Mars",
+  "status": "candidate",
+  "feature": "Impact structure",
+  "continent": "Oceania",
+  "region": "Gawler Ranges",
+  "lng": 135.45,
+  "lat": -32.017,
+  "iso3": "AUS",
+  "terrain": "Acraman is a deeply eroded impact structure in volcanic rock whose original size is uncertain: a final diameter of 85 to 90 km has been suggested, while other authors propose only 35 to 40 km. It is marked by Lake Acraman, an ephemeral playa about 20 km across.",
+  "analogRationale": "It could stand in for old, deeply eroded impact basins in volcanic bedrock that now hold playa deposits. A literature search found no Mars or Moon analog study of the structure itself; analog work in South Australia has used other sites such as Arkaroola.",
+  "evidence": [
+   {
+    "text": "The Earth Impact Database lists Acraman as a confirmed impact structure 90 km in diameter, about 590 million years old, exposed at the surface in a crystalline target.",
+    "source": {
+     "label": "Earth Impact Database, Australia table (archived 2023)",
+     "url": "https://web.archive.org/web/20230928064236/https://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Australia.html"
+    }
+   },
+   {
+    "text": "The structure lies in the Mesoproterozoic Gawler Range Volcanics, with shatter cones, planar shock lamellae in quartz and a dyke of melt rock at its centre, and aeromagnetic data show a circular magnetic low 20 km in diameter.",
+    "source": {
+     "label": "Geoscience Australia catalogue: Magnetic signature and morphology of the Acraman impact structure",
+     "url": "https://ecat.ga.gov.au/geonetwork/srv/api/records/fae9173a-718d-71e4-e044-00144fdd4fa6"
+    }
+   },
+   {
+    "text": "The structure is deeply eroded, so its original size is inferred indirectly, and its location is marked by Lake Acraman, a circular ephemeral playa lake about 20 km in diameter.",
+    "source": {
+     "label": "Wikipedia: Acraman impact structure",
+     "url": "https://en.wikipedia.org/wiki/Acraman_impact_structure"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Earth Impact Database, Australia table (archived 2023)",
+    "url": "https://web.archive.org/web/20230928064236/https://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Australia.html"
+   },
+   {
+    "label": "Geoscience Australia catalogue: Magnetic signature and morphology of the Acraman impact structure",
+    "url": "https://ecat.ga.gov.au/geonetwork/srv/api/records/fae9173a-718d-71e4-e044-00144fdd4fa6"
+   },
+   {
+    "label": "Wikipedia: Acraman impact structure",
+    "url": "https://en.wikipedia.org/wiki/Acraman_impact_structure"
+   }
+  ]
+ },
+ {
+  "id": "pingualuit-crater",
+  "name": "Pingualuit Crater",
+  "place": "Nunavik, Quebec, Canada",
+  "target": "Moon",
+  "status": "candidate",
+  "feature": "Impact crater",
+  "continent": "North America",
+  "region": "Ungava Peninsula",
+  "lng": -73.627,
+  "lat": 61.2776,
+  "iso3": "CAN",
+  "terrain": "Pingualuit is an impact crater 3.44 km in diameter and about 1.4 million years old on the Ungava Peninsula, holding a lake about 267 m deep.",
+  "analogRationale": "It could stand in for young simple craters in crystalline rock with little vegetation cover. A literature search found no Moon or Mars analog study of it; published work concerns its lake sediments and glacial history.",
+  "evidence": [
+   {
+    "text": "The Earth Impact Database lists the crater, under its former name New Quebec, as a confirmed impact crater 3.44 km in diameter, 1.4 ± 0.1 million years old, exposed at the surface in a crystalline target.",
+    "source": {
+     "label": "Earth Impact Database, North America table (archived 2024)",
+     "url": "https://web.archive.org/web/20240618191549/http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/NorthAmerica.html"
+    }
+   },
+   {
+    "text": "The crater holds a lake about 267 m deep that has no connection to any other water body, and the high latitude of the area limits vegetation.",
+    "source": {
+     "label": "NASA Earth Observatory: Pingualuit crater, Canada",
+     "url": "https://science.nasa.gov/earth/earth-observatory/pingualuit-crater-canada-8472/"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Earth Impact Database, North America table (archived 2024)",
+    "url": "https://web.archive.org/web/20240618191549/http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/NorthAmerica.html"
+   },
+   {
+    "label": "NASA Earth Observatory: Pingualuit crater, Canada",
+    "url": "https://science.nasa.gov/earth/earth-observatory/pingualuit-crater-canada-8472/"
+   }
+  ]
+ },
+ {
+  "id": "sierra-madera",
+  "name": "Sierra Madera",
+  "place": "Texas, United States",
+  "target": "Moon",
+  "status": "studied",
+  "feature": "Impact crater",
+  "continent": "North America",
+  "region": "Trans-Pecos Texas",
+  "lng": -102.917,
+  "lat": 30.6,
+  "iso3": "USA",
+  "terrain": "Sierra Madera is an eroded complex impact structure about 12 to 13 km in diameter in west Texas, with a central uplift 6 to 8 km wide.",
+  "analogRationale": "Already studied as an analog: a 1972 US Geological Survey paper presented its central uplift as a guide to the central peaks of lunar craters, and a 2005 to 2006 NASA Astrobiology Institute project sampled it as a terrestrial analog for impact-altered surface materials on Mars.",
+  "evidence": [
+   {
+    "text": "The Earth Impact Database lists Sierra Madera as a confirmed impact structure 13 km in diameter, less than 100 million years old, exposed at the surface in a sedimentary target.",
+    "source": {
+     "label": "Earth Impact Database, North America table (archived 2024)",
+     "url": "https://web.archive.org/web/20240618191549/http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/NorthAmerica.html"
+    }
+   },
+   {
+    "text": "The structure is about 12 km wide in stratified Permian and Cretaceous rocks, and the oldest rocks in its 6 to 8 km central uplift have been raised about 1,200 m above their normal position.",
+    "source": {
+     "label": "Howard, Offield and Wilshire 1972, GSA Bulletin (USGS record)",
+     "url": "https://www.usgs.gov/publications/structure-sierra-madera-texas-a-guide-central-peaks-lunar-craters"
+    }
+   },
+   {
+    "text": "A University of Hawaii team collected breccias, shatter cones and carbonate rocks from the central peak and rim to measure how impact shock changes thermal infrared spectra.",
+    "source": {
+     "label": "NASA Astrobiology Institute 2006 annual report: terrestrial analog study, Sierra Madera",
+     "url": "https://astrobiology.nasa.gov/nai/annual-reports/2006/uh/terrestrial-analog-study-sierra-madera-impact-structure-texas/index.html"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Earth Impact Database, North America table (archived 2024)",
+    "url": "https://web.archive.org/web/20240618191549/http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/NorthAmerica.html"
+   },
+   {
+    "label": "Howard, Offield and Wilshire 1972, GSA Bulletin (USGS record)",
+    "url": "https://www.usgs.gov/publications/structure-sierra-madera-texas-a-guide-central-peaks-lunar-craters"
+   },
+   {
+    "label": "NASA Astrobiology Institute 2006 annual report: terrestrial analog study, Sierra Madera",
+    "url": "https://astrobiology.nasa.gov/nai/annual-reports/2006/uh/terrestrial-analog-study-sierra-madera-impact-structure-texas/index.html"
+   }
+  ]
+ },
+ {
+  "id": "umm-jirsan-lava-tube",
+  "name": "Umm Jirsan lava tube",
+  "place": "Medina Province, Saudi Arabia",
+  "target": "Moon",
+  "status": "candidate",
+  "feature": "Lava tubes",
+  "continent": "Asia",
+  "region": "Harrat Khaybar",
+  "lng": 39.757,
+  "lat": 25.5888,
+  "iso3": "SAU",
+  "terrain": "Umm Jirsan is a lava tube 1,481 m long in the Harrat Khaybar basaltic lava field, with passages typically 8 to 12 m high and up to 45 m wide.",
+  "analogRationale": "It could stand in for lunar lava tubes and their collapse openings, since the tube is divided into segments by two large roof collapses in a dry basaltic field. A literature search found no Moon or Mars analog study of it; published work at the site is archaeological.",
+  "evidence": [
+   {
+    "text": "Umm Jirsan is the longest reported lava tube in Arabia at 1,481 m of horizontal passage, and consists of three segments separated by two large collapses.",
+    "source": {
+     "label": "Stewart et al. 2024, PLOS ONE",
+     "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0299292"
+    }
+   },
+   {
+    "text": "The tube lies at 25.5888 N, 39.7570 E in the Harrat Khaybar volcanic area, about 125 km north of Medina.",
+    "source": {
+     "label": "Stewart et al. 2024, PLOS ONE",
+     "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0299292"
+    }
+   },
+   {
+    "text": "The basaltic lava fields of Harrat Khaybar cover approximately 12,000 km² along a north-south vent system about 100 km long, and the most recent eruption took place between 600 and 700 AD.",
+    "source": {
+     "label": "Wikipedia: Harrat Khaybar",
+     "url": "https://en.wikipedia.org/wiki/Harrat_Khaybar"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Stewart et al. 2024, PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0299292"
+   },
+   {
+    "label": "Wikipedia: Harrat Khaybar",
+    "url": "https://en.wikipedia.org/wiki/Harrat_Khaybar"
+   }
+  ]
+ },
+ {
+  "id": "mount-suswa-lava-caves",
+  "name": "Mount Suswa lava caves",
+  "place": "Kajiado County, Kenya",
+  "target": "Moon",
+  "status": "candidate",
+  "feature": "Lava tubes",
+  "continent": "Africa",
+  "region": "Kenya Rift Valley",
+  "lng": 36.35,
+  "lat": -1.15,
+  "iso3": "KEN",
+  "terrain": "Mount Suswa is a Rift Valley volcano with a caldera several kilometres across and more than 200 m deep, and a field of lava tube caves on the northeast border of the caldera.",
+  "analogRationale": "It could stand in for lunar lava tubes reached through roof collapses, since the caves are entered through collapse holes in a lava field. A literature search found no Moon or Mars analog study of it; published work covers cave surveys, minerals and biology.",
+  "evidence": [
+   {
+    "text": "The Suswa volcano has a caldera some kilometres in diameter and more than 200 m deep, and all the main caves are found in a lava field on the northeast border of the caldera.",
+    "source": {
+     "label": "9th International Symposium on Vulcanospeleology paper on secondary minerals in Kenyan volcanic caves",
+     "url": "https://www.vulcanospeleology.org/sym09/ISV9Ej.pdf"
+    }
+   },
+   {
+    "text": "A 1985 Oxford University expedition spent eight weeks at the Suswa lava tube caves and recorded cave floors with lava ripples and lava ropes, and entrances formed by collapse holes.",
+    "source": {
+     "label": "Stone 1991, Oxford University Cave Club Proceedings 13: Kenyan lava tube caves",
+     "url": "https://oucc.org.uk/procs/proc13/kenya.htm"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "9th International Symposium on Vulcanospeleology paper on secondary minerals in Kenyan volcanic caves",
+    "url": "https://www.vulcanospeleology.org/sym09/ISV9Ej.pdf"
+   },
+   {
+    "label": "Stone 1991, Oxford University Cave Club Proceedings 13: Kenyan lava tube caves",
+    "url": "https://oucc.org.uk/procs/proc13/kenya.htm"
+   },
+   {
+    "label": "Wikipedia: Mount Suswa",
+    "url": "https://en.wikipedia.org/wiki/Mount_Suswa"
+   }
+  ]
+ },
+ {
+  "id": "jordan-craters",
+  "name": "Jordan Craters",
+  "place": "Oregon, United States",
+  "target": "Moon",
+  "status": "studied",
+  "feature": "Lava field",
+  "continent": "North America",
+  "region": "Southeastern Oregon",
+  "lng": -117.46,
+  "lat": 43.147,
+  "iso3": "USA",
+  "terrain": "Jordan Craters is a Holocene basaltic pahoehoe lava field covering about 68 km² in Malheur County, Oregon, erupted from Coffeepot Crater and a line of spatter cones.",
+  "analogRationale": "It could stand in for young basaltic flow fields on the Moon with vents, tube-fed lobes and open pits. Studied at thesis level for Mars: a NASA-funded 2020 University of Idaho master's thesis measured visible and near-infrared reflectance of glassy lava surfaces at Jordan Craters and applied the results to locating quenched basalts on Mars from orbit. No Moon analog study of the field was found.",
+  "evidence": [
+   {
+    "text": "The basaltic pahoehoe flows cover about 68 km² and erupted from Coffeepot Crater and smaller spatter cones aligned along a fissure about 0.3 km long.",
+    "source": {
+     "label": "USGS Cascades Volcano Observatory: Jordan Craters volcanic field",
+     "url": "https://www.usgs.gov/volcanoes/jordan-craters-volcanic-field"
+    }
+   },
+   {
+    "text": "The commonly cited age of 3,200 years comes from a charred twig beneath lake sediment and is the oldest possible age for the flows; a lobe of tube-fed lava travelled 2 km down ancestral Cow Creek.",
+    "source": {
+     "label": "USGS Cascades Volcano Observatory: Jordan Craters volcanic field",
+     "url": "https://www.usgs.gov/volcanoes/jordan-craters-volcanic-field"
+    }
+   },
+   {
+    "text": "The Bureau of Land Management describes an olivine basalt field of 27 square miles with craters, lava tubes, pahoehoe surfaces and open pits.",
+    "source": {
+     "label": "Bureau of Land Management: Jordan Craters brochure",
+     "url": "https://www.blm.gov/sites/default/files/documents/files/val_jordancraters_brochure.pdf"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "USGS Cascades Volcano Observatory: Jordan Craters volcanic field",
+    "url": "https://www.usgs.gov/volcanoes/jordan-craters-volcanic-field"
+   },
+   {
+    "label": "Bureau of Land Management: Jordan Craters brochure",
+    "url": "https://www.blm.gov/sites/default/files/documents/files/val_jordancraters_brochure.pdf"
+   },
+   {
+    "label": "Reeder 2020, University of Idaho MS thesis: in-situ VNIR analysis of glassy lava flow surfaces at Jordan Craters, OR",
+    "url": "https://objects.lib.uidaho.edu/etd/pdf/Reeder_idaho_0089N_11933.pdf"
+   }
+  ]
+ },
+ {
+  "id": "kara-bogaz-gol",
+  "name": "Kara-Bogaz-Gol",
+  "place": "Balkan Province, Turkmenistan",
+  "target": "Mars",
+  "status": "candidate",
+  "feature": "Evaporite basin",
+  "continent": "Asia",
+  "region": "Eastern Caspian",
+  "lng": 52.572,
+  "lat": 41.539,
+  "iso3": "TKM",
+  "terrain": "Kara-Bogaz-Gol is a shallow, highly saline lagoon basin of about 18,200 km² on the eastern side of the Caspian Sea, only a few metres deep. The marker and the measurements are at the town of Garabogaz, on the strip of land between the lagoon and the Caspian Sea about 88 km from the lagoon's centre, so the measured values describe the shore, not the lagoon floor.",
+  "analogRationale": "It could stand in for restricted basins on early Mars where inflowing water evaporated and left salts, because its only inflow is a narrow channel and the lagoon dried up after a dam cut off that inflow in 1980, until the dam was demolished in 1992. A literature search found no Mars analog study of it.",
+  "evidence": [
+   {
+    "text": "The lagoon is normally about 18,200 km² in area and just a few metres deep; a dam built in 1980 cut off inflow from the Caspian Sea and was demolished in 1992.",
+    "source": {
+     "label": "UNEP/GRID Environmental Hotspots: Kara-Bogaz-Gol",
+     "url": "https://hotspots.unepgrid.ch/site/kbg"
+    }
+   },
+   {
+    "text": "The shallow basin is connected to the Caspian Sea by a narrow channel that is its only source of fresh water, and its water level has varied greatly over the past century.",
+    "source": {
+     "label": "NASA Earth Observatory: Overview of the Zaliv Kara-Bogaz-Gol",
+     "url": "https://science.nasa.gov/earth/earth-observatory/overview-of-the-zaliv-kara-bogaz-gol-3550/"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "UNEP/GRID Environmental Hotspots: Kara-Bogaz-Gol",
+    "url": "https://hotspots.unepgrid.ch/site/kbg"
+   },
+   {
+    "label": "NASA Earth Observatory: Overview of the Zaliv Kara-Bogaz-Gol",
+    "url": "https://science.nasa.gov/earth/earth-observatory/overview-of-the-zaliv-kara-bogaz-gol-3550/"
+   }
+  ]
+ },
+ {
+  "id": "lake-baskunchak",
+  "name": "Lake Baskunchak",
+  "place": "Astrakhan Oblast, Russia",
+  "target": "Mars",
+  "status": "candidate",
+  "feature": "Salt lake",
+  "continent": "Europe",
+  "region": "Caspian Depression",
+  "lng": 46.883,
+  "lat": 48.167,
+  "iso3": "RUS",
+  "terrain": "Lake Baskunchak is a drainless hypersaline lake of about 115 km² in the Caspian lowland, with a layer of salt over its bottom sediments and a surface 21 m below sea level.",
+  "analogRationale": "It could stand in for chloride-rich evaporite deposits on Mars, where brine, a salt layer and gypsum forming in the sediment occur together next to a rising salt dome. A literature search found no Mars analog study of it.",
+  "evidence": [
+   {
+    "text": "Baskunchak is a large drainless lake whose sodium chloride brine has a mineralization of 313.5 to 334.7 g/L, with bottom sediments lying under a 10 cm layer of salt.",
+    "source": {
+     "label": "Gar'kusha et al. 2025, Water",
+     "url": "https://doi.org/10.3390/w17050738"
+    }
+   },
+   {
+    "text": "Authigenic gypsum and calcite form in the bottom sediments of the lake.",
+    "source": {
+     "label": "Gar'kusha et al. 2025, Water",
+     "url": "https://doi.org/10.3390/w17050738"
+    }
+   },
+   {
+    "text": "The lake covers 115 km² with its surface 21 m below sea level, and the adjacent hill Bolshoye Bogdo is pushed up about 1 mm per year by a salt dome and contains sinkholes and karst caves.",
+    "source": {
+     "label": "Wikipedia: Lake Baskunchak",
+     "url": "https://en.wikipedia.org/wiki/Lake_Baskunchak"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Gar'kusha et al. 2025, Water",
+    "url": "https://doi.org/10.3390/w17050738"
+   },
+   {
+    "label": "Wikipedia: Lake Baskunchak",
+    "url": "https://en.wikipedia.org/wiki/Lake_Baskunchak"
+   }
+  ]
+ },
+ {
+  "id": "qattara-depression",
+  "name": "Qattara Depression",
+  "place": "Matruh, Egypt",
+  "target": "Mars",
+  "status": "candidate",
+  "feature": "Deflation basin",
+  "continent": "Africa",
+  "region": "Northwestern Egypt",
+  "lng": 27.5,
+  "lat": 30.0,
+  "iso3": "EGY",
+  "terrain": "The Qattara Depression is a closed basin of about 19,605 km² in northwestern Egypt whose floor reaches about 133 m below sea level.",
+  "analogRationale": "It could stand in for large closed depressions on Mars that were deepened by wind and lose groundwater by evaporation. A literature search found no Mars analog study of the depression itself.",
+  "evidence": [
+   {
+    "text": "A working hypothesis for its origin is a stream valley that was dismembered by karstic processes in the late Miocene and afterward deepened by deflation; the depression is excavated in sedimentary rocks of Tertiary age.",
+    "source": {
+     "label": "Albritton, Brooks and Issawi 1990, Origin of the Qattara Depression, Egypt, GSA Bulletin (abstract record)",
+     "url": "https://digitalcommons.usf.edu/kip_articles/4111"
+    }
+   },
+   {
+    "text": "The depression is an endorheic basin up to 300 km long and 135 km wide, with groundwater as its inflow and evaporation as its outflow, and contains the second-lowest point in Africa at 133 m below sea level.",
+    "source": {
+     "label": "Wikipedia: Qattara Depression",
+     "url": "https://en.wikipedia.org/wiki/Qattara_Depression"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Albritton, Brooks and Issawi 1990, Origin of the Qattara Depression, Egypt, GSA Bulletin (abstract record)",
+    "url": "https://digitalcommons.usf.edu/kip_articles/4111"
+   },
+   {
+    "label": "Wikipedia: Qattara Depression",
+    "url": "https://en.wikipedia.org/wiki/Qattara_Depression"
+   }
+  ]
+ },
+ {
+  "id": "bodele-depression",
+  "name": "Bodélé Depression",
+  "place": "Borkou, Chad",
+  "target": "Mars",
+  "status": "candidate",
+  "feature": "Yardang field",
+  "continent": "Africa",
+  "region": "Bodélé Depression",
+  "lng": 17.781,
+  "lat": 16.956,
+  "iso3": "TCD",
+  "terrain": "The Bodélé Depression is the dry bed of palaeolake Megachad, where about 24,000 km² of diatomite crop out and wind erosion has left remnants of the lake bed as yardangs.",
+  "analogRationale": "It could stand in for wind-eroded lake-bed deposits and dust source regions on Mars, since light lake sediments are being stripped at measured rates. A literature search found no Mars analog study of it.",
+  "evidence": [
+   {
+    "text": "The lake bed of palaeolake Megachad is completely desiccated and exposed to deflation, and erosional remnants of lake deposits standing as yardangs show that up to 4 m of sediment has been removed locally.",
+    "source": {
+     "label": "Bristow and Hudson-Edwards 2011, EGU General Assembly abstract",
+     "url": "https://meetingorganizer.copernicus.org/EGU2011/EGU2011-1986.pdf"
+    }
+   },
+   {
+    "text": "Dating indicates the lake bed dried out around 1,000 years ago, giving a deflation rate of at least 4 mm per year, and satellite analysis shows diatomite cropping out over 24,049 km².",
+    "source": {
+     "label": "Bristow and Hudson-Edwards 2011, EGU General Assembly abstract",
+     "url": "https://meetingorganizer.copernicus.org/EGU2011/EGU2011-1986.pdf"
+    }
+   },
+   {
+    "text": "The depression is about 500 km long and 150 km wide and is the lowest point in Chad.",
+    "source": {
+     "label": "Wikipedia: Bodélé Depression",
+     "url": "https://en.wikipedia.org/wiki/Bod%C3%A9l%C3%A9_Depression"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Bristow and Hudson-Edwards 2011, EGU General Assembly abstract",
+    "url": "https://meetingorganizer.copernicus.org/EGU2011/EGU2011-1986.pdf"
+   },
+   {
+    "label": "Bristow, Drake and Armitage 2009, Geomorphology",
+    "url": "https://doi.org/10.1016/j.geomorph.2007.12.014"
+   },
+   {
+    "label": "Wikipedia: Bodélé Depression",
+    "url": "https://en.wikipedia.org/wiki/Bod%C3%A9l%C3%A9_Depression"
+   }
+  ]
+ },
+ {
+  "id": "salinas-grandes-cordoba",
+  "name": "Salinas Grandes",
+  "place": "Córdoba, Argentina",
+  "target": "Mars",
+  "status": "candidate",
+  "feature": "Salt pan",
+  "continent": "South America",
+  "region": "Salinas Grandes basin",
+  "lng": -64.72,
+  "lat": -29.855,
+  "iso3": "ARG",
+  "terrain": "Salinas Grandes is a saline complex of about 4,700 km² at 180 m elevation in central Argentina, with shallow saline lakes that dry out seasonally.",
+  "analogRationale": "It could stand in for chloride and sulfate evaporite deposits on Mars, since halite and gypsum precipitate there in a yearly cycle of flooding and drying. A literature search found no Mars analog study of it; published Mars analog work on South American salt flats concerns the high Andes.",
+  "evidence": [
+   {
+    "text": "The saline complex covers 4,700 km², about half the area of the Salar de Uyuni, at an altitude of 180 m above sea level.",
+    "source": {
+     "label": "Dargam and Elortegui Palacios 2021, Revista de la Asociación Geológica Argentina (full text)",
+     "url": "https://revista.geologica.org.ar/raga/article/download/981/990/3379"
+    }
+   },
+   {
+    "text": "In the intermittent Lucio V. Mansilla saline lake the brine is of sodium chloride type; gypsum forms at the boundary between brine and sediment and halite crystallizes on the surface of the brine as the lake evaporates.",
+    "source": {
+     "label": "Dargam and Elortegui Palacios 2021, Revista de la Asociación Geológica Argentina (abstract)",
+     "url": "https://revista.geologica.org.ar/raga/article/view/981"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Dargam and Elortegui Palacios 2021, Revista de la Asociación Geológica Argentina (abstract)",
+    "url": "https://revista.geologica.org.ar/raga/article/view/981"
+   },
+   {
+    "label": "Dargam and Elortegui Palacios 2021, Revista de la Asociación Geológica Argentina (full text)",
+    "url": "https://revista.geologica.org.ar/raga/article/download/981/990/3379"
+   }
+  ]
+ },
+ {
+  "id": "bujaraloz-yardangs",
+  "name": "Bujaraloz playas and yardangs",
+  "place": "Aragon, Spain",
+  "target": "Mars",
+  "status": "studied",
+  "feature": "Yardang field",
+  "continent": "Europe",
+  "region": "Central Ebro Depression",
+  "lng": -0.16,
+  "lat": 41.41,
+  "iso3": "ESP",
+  "terrain": "South of Bujaraloz in the central Ebro Depression, 50 mapped yardangs lie on the leeward margins of playas set among more than 100 closed depressions in gypsum and limestone.",
+  "analogRationale": "Wind-carved yardangs beside the Bujaraloz-Sástago saline lagoons, which could stand in for wind erosion and salt deposits on Mars. The Centro de Astrobiología tested the REMS weather instrument for NASA's Curiosity rover at these lagoons in 2011, so the area has been used as a Mars test site, though not for its yardangs.",
+  "evidence": [
+   {
+    "text": "The study identified 44 rock yardangs in Miocene bedrock and six yardangs in unconsolidated lake deposits, all on the leeward margins of the larger playas, with a mean orientation that matches the prevailing Cierzo wind.",
+    "source": {
+     "label": "Gutiérrez-Elorza, Desir and Gutiérrez-Santolalla 2002, Geomorphology",
+     "url": "https://wpg.forestry.oregonstate.edu/sites/default/files/seminars/Gutierrez-Elorza2002.pdf"
+    }
+   },
+   {
+    "text": "Mean annual precipitation at Bujaraloz is 400 mm against an estimated potential evapotranspiration of 778 mm, and more than 100 solution depressions in gypsum and limestone host saline lakes or playas.",
+    "source": {
+     "label": "Gutiérrez-Elorza, Desir and Gutiérrez-Santolalla 2002, Geomorphology",
+     "url": "https://wpg.forestry.oregonstate.edu/sites/default/files/seminars/Gutierrez-Elorza2002.pdf"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Gutiérrez-Elorza, Desir and Gutiérrez-Santolalla 2002, Geomorphology",
+    "url": "https://wpg.forestry.oregonstate.edu/sites/default/files/seminars/Gutierrez-Elorza2002.pdf"
+   },
+   {
+    "label": "Springer chapter: Playa-lakes and yardangs in the Bujaraloz-Sástago endorheic area, central Ebro Basin",
+    "url": "https://rd.springer.com/chapter/10.1007/978-94-017-8628-7_12"
+   },
+   {
+    "label": "REMS instrument test at Los Monegros, Centro de Astrobiología (INTA-CSIC)",
+    "url": "https://cab.inta-csic.es/rems/astrobiology-center-tests-rems-instrument-in-the-desert-of-los-monegros-aragon"
+   }
+  ]
+ },
+ {
+  "id": "laguna-salada",
+  "name": "Laguna Salada",
+  "place": "Baja California, Mexico",
+  "target": "Mars",
+  "status": "candidate",
+  "feature": "Playa",
+  "continent": "North America",
+  "region": "Sonoran Desert",
+  "lng": -115.65,
+  "lat": 32.36,
+  "iso3": "MEX",
+  "terrain": "Laguna Salada is a dry lakebed about 60 km long and 17 km wide in the Sonoran Desert of Baja California, lying about 10 m below sea level.",
+  "analogRationale": "It could stand in for dry lake floors in fault-bounded closed basins on Mars. A literature search found no Mars analog study of it; published playa analog work in the region concerns sites in the western United States.",
+  "evidence": [
+   {
+    "text": "NASA describes Laguna Salada as a dry lakebed in the Baja California portion of the Sonoran Desert, near the geologically active San Andreas Fault system.",
+    "source": {
+     "label": "NASA image: Laguna Salada in the Sonoran Desert",
+     "url": "https://www.nasa.gov/image-detail/amf-iss073e0886770/"
+    }
+   },
+   {
+    "text": "The Laguna Salada basin is an active half-graben produced by the transtensional tectonics of the Gulf of California, and a closed basin that receives sediment from the adjacent ranges and from the Colorado River.",
+    "source": {
+     "label": "Contreras, Martín-Barajas and Herguera 2005, Geofísica Internacional",
+     "url": "https://www.redalyc.org/pdf/568/56844107.pdf"
+    }
+   },
+   {
+    "text": "The dry lake is about 60 km long and 17 km wide and lies some 10 m below sea level, 30 km southwest of Mexicali.",
+    "source": {
+     "label": "Wikipedia: Laguna Salada (Mexico)",
+     "url": "https://en.wikipedia.org/wiki/Laguna_Salada_(Mexico)"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "NASA image: Laguna Salada in the Sonoran Desert",
+    "url": "https://www.nasa.gov/image-detail/amf-iss073e0886770/"
+   },
+   {
+    "label": "Contreras, Martín-Barajas and Herguera 2005, Geofísica Internacional",
+    "url": "https://www.redalyc.org/pdf/568/56844107.pdf"
+   },
+   {
+    "label": "Wikipedia: Laguna Salada (Mexico)",
+    "url": "https://en.wikipedia.org/wiki/Laguna_Salada_(Mexico)"
+   }
+  ]
+ },
+ {
+  "id": "kati-thanda-lake-eyre",
+  "name": "Kati Thanda-Lake Eyre",
+  "place": "South Australia, Australia",
+  "target": "Mars",
+  "status": "studied",
+  "feature": "Salt pan",
+  "continent": "Oceania",
+  "region": "Lake Eyre Basin",
+  "lng": 137.3,
+  "lat": -28.48,
+  "iso3": "AUS",
+  "terrain": "Kati Thanda-Lake Eyre is an ephemeral salt lake of more than 9,000 km² whose floor reaches about 15 m below sea level, with salt crust over roughly a third of its area.",
+  "analogRationale": "Studied at a preliminary level: a 2022 Australian Microbial Ecology conference abstract analysed the lake's microbial community as a hypersaline environment analogous to Martian environments, and stated that no microbiome study of the lake existed before it.",
+  "evidence": [
+   {
+    "text": "The lake spans over 9,000 km², and roughly a third of it, mainly the southern end, is salt crust, while northern sections have a thin salt crust over mud that does not dry.",
+    "source": {
+     "label": "Australian Microbial Ecology 2022 poster abstract on the Lake Eyre microbiome",
+     "url": "https://ausme-2022.p.asnevents.com.au/days/2022-11-07/abstract/85006"
+    }
+   },
+   {
+    "text": "A metagenomic analysis found that Euryarchaeota made up about 96% of the microbial community in the lake samples.",
+    "source": {
+     "label": "Australian Microbial Ecology 2022 poster abstract on the Lake Eyre microbiome",
+     "url": "https://ausme-2022.p.asnevents.com.au/days/2022-11-07/abstract/85006"
+    }
+   },
+   {
+    "text": "The lake is most often empty, contains the lowest natural point in Australia at approximately 15 m below sea level, and average rainfall in the area is 100 to 150 mm per year.",
+    "source": {
+     "label": "Wikipedia: Lake Eyre",
+     "url": "https://en.wikipedia.org/wiki/Lake_Eyre"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Australian Microbial Ecology 2022 poster abstract on the Lake Eyre microbiome",
+    "url": "https://ausme-2022.p.asnevents.com.au/days/2022-11-07/abstract/85006"
+   },
+   {
+    "label": "Wikipedia: Lake Eyre",
+    "url": "https://en.wikipedia.org/wiki/Lake_Eyre"
+   }
+  ]
+ },
+ {
+  "id": "juvvasshoe",
+  "name": "Juvvasshøe",
+  "place": "Innlandet, Norway",
+  "target": "Mars",
+  "status": "candidate",
+  "feature": "Periglacial terrain",
+  "continent": "Europe",
+  "region": "Jotunheimen",
+  "lng": 8.368,
+  "lat": 61.676,
+  "iso3": "NOR",
+  "terrain": "Juvvasshøe is a mountaintop at 1,894 m on the Juvflye plateau in Jotunheimen, underlain by permafrost estimated at about 380 m thick, with sorted circles and stripes on the plateau.",
+  "analogRationale": "It could stand in for ground-ice terrain on Mars with thick permafrost and sorted patterned ground on a sparsely vegetated plateau. A literature search found no Mars analog study of it; the Mars comparisons of patterned ground that the search returned use Svalbard.",
+  "evidence": [
+   {
+    "text": "A 129 m borehole was drilled at Juvvasshøe (61°40'32\"N, 08°22'04\"E, 1,894 m) in August 1999, and its low geothermal gradient indicates permafrost about 380 m thick.",
+    "source": {
+     "label": "Isaksen et al. 2001, Permafrost and Periglacial Processes",
+     "url": "https://doi.org/10.1002/ppp.380"
+    }
+   },
+   {
+    "text": "Juvvasshøe is one of the borehole sites used to model how mountain permafrost and active layer thickness in southern Norway have changed since 1860.",
+    "source": {
+     "label": "Hipp et al. 2012, The Cryosphere",
+     "url": "https://doi.org/10.5194/tc-6-553-2012"
+    }
+   },
+   {
+    "text": "Sorted stripes and sorted circles on the Juvflye plateau have been dated with Schmidt-hammer exposure-age dating.",
+    "source": {
+     "label": "Winkler et al. 2020, Geomorphology",
+     "url": "https://doi.org/10.1016/j.geomorph.2019.107014"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Isaksen et al. 2001, Permafrost and Periglacial Processes",
+    "url": "https://doi.org/10.1002/ppp.380"
+   },
+   {
+    "label": "Hipp et al. 2012, The Cryosphere",
+    "url": "https://doi.org/10.5194/tc-6-553-2012"
+   },
+   {
+    "label": "Winkler et al. 2020, Geomorphology",
+    "url": "https://doi.org/10.1016/j.geomorph.2019.107014"
+   },
+   {
+    "label": "Winkler et al. 2016, Geografiska Annaler: Series A",
+    "url": "https://doi.org/10.1111/geoa.12134"
+   }
+  ]
+ },
+ {
+  "id": "zackenberg-valley",
+  "name": "Zackenberg valley",
+  "place": "Northeast Greenland, Greenland",
+  "target": "Mars",
+  "status": "candidate",
+  "feature": "Periglacial terrain",
+  "continent": "North America",
+  "region": "Northeast Greenland",
+  "lng": -20.5,
+  "lat": 74.467,
+  "iso3": "GRL",
+  "terrain": "Zackenberg is a wide lowland valley in northeast Greenland underlain by continuous permafrost, where the active layer is 40 cm to more than 2 m thick.",
+  "analogRationale": "It could stand in for ice-rich permafrost terrain on Mars, with a long monitoring record of active layer depth and ground temperature. A literature search found no Mars analog study of it; the Arctic patterned ground analog work that the search returned concerns Svalbard.",
+  "evidence": [
+   {
+    "text": "The valley floor is dominated by Quaternary sediments with significant periglacial activity and continuous permafrost, and the mean annual air temperature was -9.5 °C for 1996 to 2007.",
+    "source": {
+     "label": "Westermann et al., The Cryosphere discussion manuscript (tc-2014-83)",
+     "url": "https://tc.copernicus.org/preprints/8/3907/2014/tc-2014-83-manuscript-version6.pdf"
+    }
+   },
+   {
+    "text": "Maximum active layer thickness varies from 40 cm to more than 2 m and increased by 0.8 to 1.5 cm per year between 1996 and 2012 at two monitoring grids.",
+    "source": {
+     "label": "Westermann et al., The Cryosphere discussion manuscript (tc-2014-83)",
+     "url": "https://tc.copernicus.org/preprints/8/3907/2014/tc-2014-83-manuscript-version6.pdf"
+    }
+   },
+   {
+    "text": "The ZEROCALM 1 active layer monitoring site lies at 74.47°N, 20.5°W in the continuous permafrost zone, on a fine-grained marine abraded plain.",
+    "source": {
+     "label": "Global Terrestrial Network for Permafrost: Zackenberg ZEROCALM 1",
+     "url": "https://gtnpdatabase.org/activelayers/view/50"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Westermann et al., The Cryosphere discussion manuscript (tc-2014-83)",
+    "url": "https://tc.copernicus.org/preprints/8/3907/2014/tc-2014-83-manuscript-version6.pdf"
+   },
+   {
+    "label": "Global Terrestrial Network for Permafrost: Zackenberg ZEROCALM 1",
+    "url": "https://gtnpdatabase.org/activelayers/view/50"
+   },
+   {
+    "label": "Christiansen et al. 2008, Permafrost and periglacial geomorphology at Zackenberg",
+    "url": "https://doi.org/10.1016/s0065-2504(07)00007-4"
+   }
+  ]
+ },
+ {
+  "id": "nevado-chachani",
+  "name": "Nevado Chachani",
+  "place": "Arequipa, Peru",
+  "target": "Mars",
+  "status": "candidate",
+  "feature": "Periglacial terrain",
+  "continent": "South America",
+  "region": "Western Cordillera of southern Peru",
+  "lng": -71.517,
+  "lat": -16.183,
+  "iso3": "PER",
+  "terrain": "Chachani is a volcanic complex 6,057 m high in southern Peru that has no glaciers, with rock glaciers on its upper slopes and continuous permafrost above 5,420 m.",
+  "analogRationale": "It could stand in for cold, dry volcanic terrain on Mars where ground ice persists without surface ice. A literature search found no Mars analog study of it.",
+  "evidence": [
+   {
+    "text": "Ground temperature stations at 4,850, 4,976 and 5,331 m on the southern slope show that snow cover lasts only a few days each year and that air and ground surface temperatures oscillate around 0 °C almost daily.",
+    "source": {
+     "label": "Andrés et al. 2011, Geografiska Annaler: Series A (repository record)",
+     "url": "https://docta.ucm.es/entities/publication/b2140757-30d8-46ae-a96e-cf8a30d316f8"
+    }
+   },
+   {
+    "text": "Isolated patches of permafrost begin at 5,050 m on south-facing slopes, discontinuous permafrost occurs from 5,250 to 5,420 m, and continuous permafrost is found above 5,420 m.",
+    "source": {
+     "label": "Andrés et al. 2011, Geografiska Annaler: Series A (repository record)",
+     "url": "https://docta.ucm.es/entities/publication/b2140757-30d8-46ae-a96e-cf8a30d316f8"
+    }
+   },
+   {
+    "text": "The complex (16°11'S, 71°31'W) currently has no glaciers; its only solid-state water is permafrost, shown by several generations of rock glaciers in the upper part of the mountain.",
+    "source": {
+     "label": "Alcalá, Zamorano and Palacios 2012, EGU General Assembly abstract",
+     "url": "https://meetingorganizer.copernicus.org/EGU2012/EGU2012-3677-2.pdf"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Andrés et al. 2011, Geografiska Annaler: Series A (repository record)",
+    "url": "https://docta.ucm.es/entities/publication/b2140757-30d8-46ae-a96e-cf8a30d316f8"
+   },
+   {
+    "label": "Alcalá, Zamorano and Palacios 2012, EGU General Assembly abstract",
+    "url": "https://meetingorganizer.copernicus.org/EGU2012/EGU2012-3677-2.pdf"
+   }
+  ]
+ },
+ {
+  "id": "kumtor-arabel-plateau",
+  "name": "Kumtor and Arabel plateau",
+  "place": "Issyk-Kul Region, Kyrgyzstan",
+  "target": "Mars",
+  "status": "candidate",
+  "feature": "Periglacial terrain",
+  "continent": "Asia",
+  "region": "Inner Tien Shan",
+  "lng": 78.2,
+  "lat": 41.817,
+  "iso3": "KGZ",
+  "terrain": "A 1,563 km² area of the Inner Tien Shan around the Kumtor mine and the Arabel plateau is mapped as continuous permafrost by a 2026 modelling preprint, with rock glaciers and thermokarst features; an older borehole record there classifies the zone as discontinuous.",
+  "analogRationale": "It could stand in for high, cold terrain on Mars with continuous permafrost, rock glaciers and thaw subsidence. A literature search found no Mars analog study of it. Part of the area is an active gold mine.",
+  "evidence": [
+   {
+    "text": "Permafrost modelling at 30 m resolution indicates continuous permafrost across the study area, with mean ground temperatures at 5 m depth from -0.1 °C to -6.5 °C and a spatial mean of -2.9 °C.",
+    "source": {
+     "label": "EGUsphere preprint 2026-2756: permafrost in the Inner Tien Shan, Kyrgyzstan",
+     "url": "https://egusphere.copernicus.org/preprints/2026/egusphere-2026-2756/"
+    }
+   },
+   {
+    "text": "Mean thaw depth at the end of August 2024 was 2.0 m; fine-grained sediments on the Arabel plateau thaw more deeply and coincide with thermokarst features and ground subsidence, while coarse blocky debris and rock glaciers thaw less.",
+    "source": {
+     "label": "EGUsphere preprint 2026-2756: permafrost in the Inner Tien Shan, Kyrgyzstan",
+     "url": "https://egusphere.copernicus.org/preprints/2026/egusphere-2026-2756/"
+    }
+   },
+   {
+    "text": "A permafrost borehole 230 m deep, drilled in 1989 and now inactive, is registered at 41.82°N, 78.2°E at an elevation of about 4,620 m, on ground with no vegetation; the record classifies its permafrost zone as discontinuous.",
+    "source": {
+     "label": "Global Terrestrial Network for Permafrost: borehole 1086",
+     "url": "https://gtnpdatabase.org/boreholes/view/1086"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "EGUsphere preprint 2026-2756: permafrost in the Inner Tien Shan, Kyrgyzstan",
+    "url": "https://egusphere.copernicus.org/preprints/2026/egusphere-2026-2756/"
+   },
+   {
+    "label": "Global Terrestrial Network for Permafrost: borehole 1086",
+    "url": "https://gtnpdatabase.org/boreholes/view/1086"
+   }
+  ]
+ },
+ {
+  "id": "dos-lenguas-rock-glacier",
+  "name": "Dos Lenguas rock glacier",
+  "place": "San Juan, Argentina",
+  "target": "Mars",
+  "status": "studied",
+  "feature": "Rock glacier",
+  "continent": "South America",
+  "region": "Agua Negra basin",
+  "lng": -69.785,
+  "lat": -30.245,
+  "iso3": "ARG",
+  "terrain": "Dos Lenguas is an active tongue-shaped rock glacier about 1,200 m long between 4,200 and 4,500 m elevation in the upper Agua Negra basin of the dry Andes.",
+  "analogRationale": "Studied recently: a 2026 Europlanet Science Congress abstract uses Dos Lenguas as a terrestrial analogue for glacier-like forms on Mars near Reull Vallis, with drone surveys flown in March 2026; the abstract describes the comparison as still in progress.",
+  "evidence": [
+   {
+    "text": "The rock glacier is roughly 1,200 m long and 200 to 600 m wide, extends from 4,200 m at the foot to 4,500 m in the root zone, and covers about 0.36 km²; geophysical surveys show ice-rich permafrost inside it.",
+    "source": {
+     "label": "Halla et al. 2021, The Cryosphere",
+     "url": "https://tc.copernicus.org/articles/15/1187/2021/"
+    }
+   },
+   {
+    "text": "The El Paso rock glacier is located in the arid to hyper-arid Agua Negra basin, where geophysical methods gave a maximum inferred permafrost thickness of 18.5 m.",
+    "source": {
+     "label": "Croce and Milana 2002, Permafrost and Periglacial Processes",
+     "url": "https://doi.org/10.1002/ppp.431"
+    }
+   },
+   {
+    "text": "A comparative study of Martian glacier-like forms surveyed Dos Lenguas by drone in March 2026 and describes well-developed ridge-and-furrow systems and active creep.",
+    "source": {
+     "label": "Bertoli et al. 2026, Europlanet Science Congress abstract EPSC2026-939",
+     "url": "https://meetingorganizer.copernicus.org/EPSC2026/EPSC2026-939.html"
+    }
+   }
+  ],
+  "sources": [
+   {
+    "label": "Halla et al. 2021, The Cryosphere",
+    "url": "https://tc.copernicus.org/articles/15/1187/2021/"
+   },
+   {
+    "label": "Croce and Milana 2002, Permafrost and Periglacial Processes",
+    "url": "https://doi.org/10.1002/ppp.431"
+   },
+   {
+    "label": "Bertoli et al. 2026, Europlanet Science Congress abstract EPSC2026-939",
+    "url": "https://meetingorganizer.copernicus.org/EPSC2026/EPSC2026-939.html"
+   }
+  ]
+ }
+]

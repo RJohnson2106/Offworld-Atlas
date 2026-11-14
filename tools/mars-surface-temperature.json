@@ -1,0 +1,38 @@
+{
+  "jezero": {
+    "mean": -49.2,
+    "min": -81.0,
+    "max": 0.4,
+    "basis": "measured",
+    "period": "mean over a Mars year, measured by the Perseverance rover",
+    "source": {
+      "name": "NASA Perseverance MEDA ground temperature, Planetary Data System",
+      "url": "https://atmos.nmsu.edu/PDS/data/PDS4/Mars2020/mars2020_meda/data_calibrated_env/"
+    },
+    "method": "Our own average of the MEDA TIRS ground brightness temperature: two consecutive sols sampled every 20 sols over sols 30-670, 29 days with near-complete coverage. Min and max are the average coldest and warmest half hour of the day."
+  },
+  "gale": {
+    "mean": -48.5,
+    "min": -80.8,
+    "max": -4.9,
+    "basis": "measured",
+    "period": "mean over a Mars year, measured by the Curiosity rover",
+    "source": {
+      "name": "NASA Curiosity REMS ground temperature, Planetary Data System",
+      "url": "https://atmos.nmsu.edu/PDS/data/mslrem_1001/DATA/"
+    },
+    "method": "Our own average of the REMS ground brightness temperature: one sol sampled every 40 sols over sols 21-660, 15 days with full coverage, in hourly bins. Hourly bins smooth the midday peak, so the max is probably a few degrees low."
+  },
+  "arcadia": {
+    "mean": -74.9,
+    "min": -100.6,
+    "max": -37.9,
+    "basis": "calculated",
+    "period": "mean over a Mars year, from a climate model",
+    "source": {
+      "name": "Mars Climate Database v6.2 (a model, not a NASA measurement)",
+      "url": "https://www-mars.lmd.jussieu.fr/mcd_python/"
+    },
+    "method": "Surface temperature from the LMD Mars Climate Database at 49.0 N, 171.85 W, time-weighted over its 24 seasons and 24 hours. No lander has measured this site."
+  }
+}

@@ -1,0 +1,10 @@
+[
+  { "id": "control-iowa-cropland", "name": "Iowa cropland", "kind": "Farmland", "lng": -93.5, "lat": 42.0, "iso3": "USA" },
+  { "id": "control-everglades", "name": "Everglades wetland", "kind": "Wetland", "lng": -80.8, "lat": 25.8, "iso3": "USA" },
+  { "id": "control-peru-amazon", "name": "Peruvian Amazon", "kind": "Rainforest", "lng": -74.0, "lat": -4.5, "iso3": "PER" },
+  { "id": "control-pampas-cropland", "name": "Pampas cropland", "kind": "Farmland", "lng": -61.0, "lat": -34.0, "iso3": "ARG" },
+  { "id": "control-north-china-plain", "name": "North China Plain", "kind": "Farmland", "lng": 115.5, "lat": 36.0, "iso3": "CHN" },
+  { "id": "control-ontario-boreal", "name": "Ontario boreal forest", "kind": "Forest", "lng": -85.0, "lat": 50.0, "iso3": "CAN" },
+  { "id": "control-yucatan-forest", "name": "Yucatán forest", "kind": "Forest", "lng": -88.5, "lat": 19.5, "iso3": "MEX" },
+  { "id": "control-queensland-rainforest", "name": "Queensland wet tropics", "kind": "Rainforest", "lng": 145.6, "lat": -17.3, "iso3": "AUS" }
+]

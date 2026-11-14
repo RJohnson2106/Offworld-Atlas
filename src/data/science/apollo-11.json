@@ -1,0 +1,40 @@
+{
+ "world": "Moon",
+ "terrain": {
+  "118": {
+   "grid": 118,
+   "scales": [
+    {
+     "lag": 118,
+     "rms": 3.51
+    },
+    {
+     "lag": 236,
+     "rms": 6.71
+    },
+    {
+     "lag": 472,
+     "rms": 12.12
+    },
+    {
+     "lag": 944,
+     "rms": 20.15
+    },
+    {
+     "lag": 1888,
+     "rms": 29.69
+    }
+   ],
+   "hurst": 0.775,
+   "steeperThan15": 0.5
+  }
+ },
+ "physical": {
+  "sunlight": 433.1,
+  "dayHours": 708.72,
+  "gravity": 1.62,
+  "pressureMb": 3e-12,
+  "airColumnKg": 1.8518518518518518e-10,
+  "meanElevation": -1895
+ }
+}

@@ -1,0 +1,547 @@
+{
+ "sources": {
+  "moon": {
+   "name": "NASA LRO Diviner Global Cumulative Products",
+   "url": "https://pds-geosciences.wustl.edu/missions/lro/diviner.htm",
+   "credit": "Williams et al. (2017), Icarus 283. NASA Planetary Data System."
+  },
+  "earth": {
+   "name": "NASA MODIS land surface temperature",
+   "url": "https://worldview.earthdata.nasa.gov/?l=MODIS_Terra_L3_Land_Surface_Temp_Monthly_Day",
+   "credit": "MODIS Terra monthly day and night land surface temperature for 2025, read from NASA GIBS imagery. NASA POWER skin temperature where MODIS has too few months."
+  }
+ },
+ "sites": {
+  "haughton": {
+   "mean": -18.0,
+   "source": "modis",
+   "months": 12
+  },
+  "cinder-lake": {
+   "mean": 15.4,
+   "source": "modis",
+   "months": 12
+  },
+  "san-borja": {
+   "mean": 23.7,
+   "source": "modis",
+   "months": 12
+  },
+  "yungay": {
+   "mean": 22.8,
+   "source": "modis",
+   "months": 12
+  },
+  "nazca": {
+   "mean": 24.5,
+   "source": "modis",
+   "months": 12
+  },
+  "payun-matru": {
+   "mean": 11.9,
+   "source": "modis",
+   "months": 12
+  },
+  "askja": {
+   "mean": -1.3,
+   "source": "modis",
+   "months": 12
+  },
+  "rio-tinto": {
+   "mean": 18.5,
+   "source": "modis",
+   "months": 12
+  },
+  "calatrava": {
+   "mean": 17.0,
+   "source": "modis",
+   "months": 12
+  },
+  "nw-libya": {
+   "mean": 22.9,
+   "source": "modis",
+   "months": 12
+  },
+  "tarso-toh": {
+   "mean": 28.3,
+   "source": "modis",
+   "months": 12
+  },
+  "bayuda": {
+   "mean": 33.1,
+   "source": "modis",
+   "months": 12
+  },
+  "lake-salda": {
+   "mean": 14.5,
+   "source": "modis",
+   "months": 12
+  },
+  "hisma": {
+   "mean": 25.9,
+   "source": "modis",
+   "months": 12
+  },
+  "gobi-altai": {
+   "mean": 8.5,
+   "source": "modis",
+   "months": 12
+  },
+  "taryatu-chulutu": {
+   "mean": -1.7,
+   "source": "modis",
+   "months": 12
+  },
+  "mauna-kea": {
+   "mean": 17.8,
+   "source": "modis",
+   "months": 12
+  },
+  "nullarbor": {
+   "mean": 20.1,
+   "source": "modis",
+   "months": 12
+  },
+  "mcbride": {
+   "mean": 23.0,
+   "source": "modis",
+   "months": 12
+  },
+  "dorvoljin-district": {
+   "mean": 4.0,
+   "source": "modis",
+   "months": 12
+  },
+  "taklamakan-desert": {
+   "mean": 16.8,
+   "source": "modis",
+   "months": 12
+  },
+  "aralkum": {
+   "mean": 13.2,
+   "source": "modis",
+   "months": 12
+  },
+  "dasht-e-kavir": {
+   "mean": 25.5,
+   "source": "modis",
+   "months": 12
+  },
+  "badain-jaran-desert": {
+   "mean": 15.2,
+   "source": "modis",
+   "months": 12
+  },
+  "harrat-ash-shaam": {
+   "mean": 24.8,
+   "source": "modis",
+   "months": 12
+  },
+  "harrat-lunayyir": {
+   "mean": 31.3,
+   "source": "modis",
+   "months": 12
+  },
+  "karaca-dag": {
+   "mean": 18.7,
+   "source": "modis",
+   "months": 12
+  },
+  "al-jufra-district": {
+   "mean": 26.7,
+   "source": "modis",
+   "months": 12
+  },
+  "illizi-district": {
+   "mean": 26.3,
+   "source": "modis",
+   "months": 12
+  },
+  "el-abiodh-sidi-cheikh-district": {
+   "mean": 24.0,
+   "source": "modis",
+   "months": 12
+  },
+  "malha-locality": {
+   "mean": 26.8,
+   "source": "modis",
+   "months": 12
+  },
+  "emi-koussi": {
+   "mean": 27.0,
+   "source": "modis",
+   "months": 12
+  },
+  "todra-volcanic-field": {
+   "mean": 30.0,
+   "source": "modis",
+   "months": 12
+  },
+  "atakor-volcanic-field": {
+   "mean": 23.1,
+   "source": "modis",
+   "months": 12
+  },
+  "meidob-volcanic-field": {
+   "mean": 29.5,
+   "source": "modis",
+   "months": 12
+  },
+  "the-barrier": {
+   "mean": 30.6,
+   "source": "modis",
+   "months": 12
+  },
+  "qikiqtaaluk-region": {
+   "mean": -15.0,
+   "source": "modis",
+   "months": 12
+  },
+  "banks-island": {
+   "mean": -15.3,
+   "source": "modis",
+   "months": 12
+  },
+  "north-slope-borough": {
+   "mean": -12.0,
+   "source": "modis",
+   "months": 12
+  },
+  "san-quintin-municipality": {
+   "mean": 21.0,
+   "source": "modis",
+   "months": 12
+  },
+  "comondu-la-purisima": {
+   "mean": 25.9,
+   "source": "modis",
+   "months": 12
+  },
+  "devils-garden": {
+   "mean": 9.2,
+   "source": "modis",
+   "months": 12
+  },
+  "alligator-lake-volcanic-complex": {
+   "mean": -4.8,
+   "source": "modis",
+   "months": 12
+  },
+  "sechura-desert": {
+   "mean": 28.0,
+   "source": "modis",
+   "months": 12
+  },
+  "rio-chico-department": {
+   "mean": 3.8,
+   "source": "modis",
+   "months": 12
+  },
+  "telsen-department": {
+   "mean": 13.3,
+   "source": "modis",
+   "months": 12
+  },
+  "uspallata-district": {
+   "mean": 10.6,
+   "source": "modis",
+   "months": 12
+  },
+  "crater-basalt-volcanic-field": {
+   "mean": 9.4,
+   "source": "modis",
+   "months": 12
+  },
+  "pali-aike-volcanic-field": {
+   "mean": 4.3,
+   "source": "modis",
+   "months": 12
+  },
+  "plumridge-lakes": {
+   "mean": 20.1,
+   "source": "modis",
+   "months": 12
+  },
+  "commonwealth-hill": {
+   "mean": 22.8,
+   "source": "modis",
+   "months": 12
+  },
+  "simpson-desert": {
+   "mean": 25.8,
+   "source": "modis",
+   "months": 12
+  },
+  "yalgoo": {
+   "mean": 24.0,
+   "source": "modis",
+   "months": 12
+  },
+  "bulloo-downs": {
+   "mean": 23.4,
+   "source": "modis",
+   "months": 12
+  },
+  "mulyungarie": {
+   "mean": 22.0,
+   "source": "modis",
+   "months": 12
+  },
+  "pulpi": {
+   "mean": 19.7,
+   "source": "modis",
+   "months": 12
+  },
+  "tenoumer-crater": {
+   "mean": 29.2,
+   "source": "modis",
+   "months": 12
+  },
+  "ouarkziz-crater": {
+   "mean": 29.4,
+   "source": "modis",
+   "months": 12
+  },
+  "tin-bider-crater": {
+   "mean": 26.6,
+   "source": "modis",
+   "months": 12
+  },
+  "gweni-fada-crater": {
+   "mean": 31.8,
+   "source": "modis",
+   "months": 12
+  },
+  "jebel-waqf-as-suwwan": {
+   "mean": 23.4,
+   "source": "modis",
+   "months": 12
+  },
+  "tabun-khara-obo-crater": {
+   "mean": 11.3,
+   "source": "modis",
+   "months": 12
+  },
+  "zhamanshin-crater": {
+   "mean": 9.1,
+   "source": "modis",
+   "months": 12
+  },
+  "kara-kul-structure": {
+   "mean": -2.3,
+   "source": "modis",
+   "months": 12
+  },
+  "connolly-basin": {
+   "mean": 27.2,
+   "source": "modis",
+   "months": 12
+  },
+  "lake-acraman": {
+   "mean": 20.4,
+   "source": "modis",
+   "months": 12
+  },
+  "pingualuit-crater": {
+   "mean": -11.3,
+   "source": "modis",
+   "months": 12
+  },
+  "sierra-madera": {
+   "mean": 21.9,
+   "source": "modis",
+   "months": 12
+  },
+  "umm-jirsan-lava-tube": {
+   "mean": 28.8,
+   "source": "modis",
+   "months": 12
+  },
+  "mount-suswa-lava-caves": {
+   "mean": 20.7,
+   "source": "modis",
+   "months": 12
+  },
+  "jordan-craters": {
+   "mean": 12.7,
+   "source": "modis",
+   "months": 12
+  },
+  "kara-bogaz-gol": {
+   "mean": 15.0,
+   "source": "modis",
+   "months": 12
+  },
+  "lake-baskunchak": {
+   "mean": 12.2,
+   "source": "modis",
+   "months": 12
+  },
+  "qattara-depression": {
+   "mean": 29.0,
+   "source": "modis",
+   "months": 12
+  },
+  "bodele-depression": {
+   "mean": 30.7,
+   "source": "modis",
+   "months": 12
+  },
+  "salinas-grandes-cordoba": {
+   "mean": 20.6,
+   "source": "modis",
+   "months": 12
+  },
+  "bujaraloz-yardangs": {
+   "mean": 16.8,
+   "source": "modis",
+   "months": 12
+  },
+  "laguna-salada": {
+   "mean": 27.8,
+   "source": "modis",
+   "months": 12
+  },
+  "kati-thanda-lake-eyre": {
+   "mean": 23.6,
+   "source": "modis",
+   "months": 12
+  },
+  "juvvasshoe": {
+   "mean": -3.2,
+   "source": "modis",
+   "months": 12
+  },
+  "zackenberg-valley": {
+   "mean": -12.0,
+   "source": "modis",
+   "months": 12
+  },
+  "nevado-chachani": {
+   "mean": 11.9,
+   "source": "modis",
+   "months": 12
+  },
+  "kumtor-arabel-plateau": {
+   "mean": -5.4,
+   "source": "modis",
+   "months": 12
+  },
+  "dos-lenguas-rock-glacier": {
+   "mean": 3.4,
+   "source": "modis",
+   "months": 12
+  },
+  "control-iowa-cropland": {
+   "mean": 9.9,
+   "source": "modis",
+   "months": 12
+  },
+  "control-everglades": {
+   "mean": 23.2,
+   "source": "modis",
+   "months": 12
+  },
+  "control-peru-amazon": {
+   "mean": 24.8,
+   "source": "modis",
+   "months": 12
+  },
+  "control-pampas-cropland": {
+   "mean": 15.5,
+   "source": "modis",
+   "months": 12
+  },
+  "control-north-china-plain": {
+   "mean": 14.7,
+   "source": "modis",
+   "months": 12
+  },
+  "control-ontario-boreal": {
+   "mean": -0.2,
+   "source": "modis",
+   "months": 12
+  },
+  "control-yucatan-forest": {
+   "mean": 24.6,
+   "source": "modis",
+   "months": 12
+  },
+  "control-queensland-rainforest": {
+   "mean": 20.2,
+   "source": "modis",
+   "months": 12
+  }
+ },
+ "references": {
+  "malapert": {
+   "mean": -153.9,
+   "max": -99.7,
+   "min": -211.9,
+   "bins": 192,
+   "hoursObserved": 96,
+   "basis": "measured",
+   "period": "mean over a lunar day, measured by LRO Diviner"
+  },
+  "mons-mouton": {
+   "mean": -136.4,
+   "max": -55.8,
+   "min": -196.6,
+   "bins": 108,
+   "hoursObserved": 96,
+   "basis": "measured",
+   "period": "mean over a lunar day, measured by LRO Diviner"
+  },
+  "apollo-17": {
+   "mean": -58.0,
+   "max": 111.5,
+   "min": -178.3,
+   "bins": 6,
+   "hoursObserved": 72,
+   "basis": "measured",
+   "period": "mean over a lunar day, measured by LRO Diviner"
+  },
+  "apollo-11": {
+   "mean": -55.5,
+   "max": 121.9,
+   "min": -178.1,
+   "bins": 12,
+   "hoursObserved": 70,
+   "basis": "measured",
+   "period": "mean over a lunar day, measured by LRO Diviner"
+  },
+  "jezero": {
+   "mean": -49.2,
+   "min": -81.0,
+   "max": 0.4,
+   "basis": "measured",
+   "period": "mean over a Mars year, measured by the Perseverance rover",
+   "source": {
+    "name": "NASA Perseverance MEDA ground temperature, Planetary Data System",
+    "url": "https://atmos.nmsu.edu/PDS/data/PDS4/Mars2020/mars2020_meda/data_calibrated_env/"
+   }
+  },
+  "gale": {
+   "mean": -48.5,
+   "min": -80.8,
+   "max": -4.9,
+   "basis": "measured",
+   "period": "mean over a Mars year, measured by the Curiosity rover",
+   "source": {
+    "name": "NASA Curiosity REMS ground temperature, Planetary Data System",
+    "url": "https://atmos.nmsu.edu/PDS/data/mslrem_1001/DATA/"
+   }
+  },
+  "arcadia": {
+   "mean": -74.9,
+   "min": -100.6,
+   "max": -37.9,
+   "basis": "calculated",
+   "period": "mean over a Mars year, from a climate model",
+   "source": {
+    "name": "Mars Climate Database v6.2 (a model, not a NASA measurement)",
+    "url": "https://www-mars.lmd.jussieu.fr/mcd_python/"
+   }
+  }
+ }
+}

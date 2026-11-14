@@ -1,0 +1,117 @@
+{
+    "layers":  [
+                   {
+                       "id":  "temperature",
+                       "label":  "Mean temperature",
+                       "kind":  "continuous",
+                       "unit":  "°C",
+                       "min":  -30,
+                       "max":  30,
+                       "stops":  [
+                                     "#184f95",
+                                     "#5598e7",
+                                     "#d9d8d2",
+                                     "#e66767",
+                                     "#9c1f1f"
+                                 ],
+                       "ticks":  [
+                                     "−30 °C",
+                                     "0 °C",
+                                     "30 °C"
+                                 ],
+                       "source":  {
+                                      "name":  "CHELSA V2.1, 1981–2010",
+                                      "url":  "https://www.chelsa-climate.org/"
+                                  }
+                   },
+                   {
+                       "id":  "precipitation",
+                       "label":  "Yearly rain and snow",
+                       "kind":  "classes",
+                       "unit":  "",
+                       "classes":  [
+                                       {
+                                           "label":  "Under 100 mm",
+                                           "color":  "#d6f3e8"
+                                       },
+                                       {
+                                           "label":  "100–250 mm",
+                                           "color":  "#9de0c8"
+                                       },
+                                       {
+                                           "label":  "250–500 mm",
+                                           "color":  "#49c196"
+                                       },
+                                       {
+                                           "label":  "500–1,000 mm",
+                                           "color":  "#179c6d"
+                                       },
+                                       {
+                                           "label":  "1,000–2,000 mm",
+                                           "color":  "#107552"
+                                       },
+                                       {
+                                           "label":  "Over 2,000 mm",
+                                           "color":  "#0a4d36"
+                                       }
+                                   ],
+                       "source":  {
+                                      "name":  "CHELSA V2.1, 1981–2010",
+                                      "url":  "https://www.chelsa-climate.org/"
+                                  }
+                   },
+                   {
+                       "id":  "remoteness",
+                       "label":  "Travel time to a city",
+                       "kind":  "classes",
+                       "unit":  "",
+                       "classes":  [
+                                       {
+                                           "label":  "Under 30 min",
+                                           "color":  "#fde3d6"
+                                       },
+                                       {
+                                           "label":  "30–60 min",
+                                           "color":  "#f9c4ad"
+                                       },
+                                       {
+                                           "label":  "1–3 hours",
+                                           "color":  "#f39b76"
+                                       },
+                                       {
+                                           "label":  "3–6 hours",
+                                           "color":  "#eb6834"
+                                       },
+                                       {
+                                           "label":  "6–12 hours",
+                                           "color":  "#c95226"
+                                       },
+                                       {
+                                           "label":  "12–24 hours",
+                                           "color":  "#a33e1a"
+                                       },
+                                       {
+                                           "label":  "Over a day",
+                                           "color":  "#7a2c10"
+                                       }
+                                   ],
+                       "source":  {
+                                      "name":  "Global travel time to cities",
+                                      "url":  "https://figshare.com/articles/Travel_time_to_cities_and_ports_in_the_year_2015/7638134"
+                                  }
+                   }
+               ],
+    "gridSize":  512,
+    "points":  [
+                   {
+                       "id":  "volcanoes",
+                       "label":  "Volcanoes, last 12,000 years",
+                       "color":  "#d95926",
+                       "count":  1214,
+                       "source":  {
+                                      "name":  "Smithsonian Volcanoes of the World",
+                                      "url":  "https://volcano.si.edu/"
+                                  }
+                   }
+               ]
+}

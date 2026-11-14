@@ -1,0 +1,26 @@
+{
+ "source": {
+  "name": "NASA LRO Diviner Polar Resource Product",
+  "url": "https://pds-geosciences.wustl.edu/missions/lro/diviner.htm",
+  "credit": "Paige et al., NASA Planetary Data System."
+ },
+ "shallowMetres": 1.0,
+ "references": {
+  "malapert": {
+   "surface": 0.2,
+   "shallow": 47.0,
+   "deeper": 0.3,
+   "none": 51.7,
+   "meanAnnualC": -154.0,
+   "patches": 20322
+  },
+  "mons-mouton": {
+   "surface": 0.2,
+   "shallow": 22.4,
+   "deeper": 0.3,
+   "none": 76.7,
+   "meanAnnualC": -139.8,
+   "patches": 20346
+  }
+ }
+}

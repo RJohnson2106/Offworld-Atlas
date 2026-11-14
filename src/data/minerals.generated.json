@@ -1,0 +1,972 @@
+{
+ "source": {
+  "name": "NASA EMIT L2B Mineral Identification",
+  "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-emitl2bmin-001"
+ },
+ "sites": {
+  "haughton": {
+   "usable": false,
+   "reason": "coverage",
+   "cover": 0,
+   "scenes": 0
+  },
+  "cinder-lake": {
+   "usable": false,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 81.8,
+   "shares": {
+    "ironOxide": 15.1,
+    "clay": 5.3,
+    "carbonate": 5.8,
+    "sulfate": 0.7
+   },
+   "reason": "vegetation"
+  },
+  "san-borja": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 36.1,
+   "shares": {
+    "ironOxide": 37.9,
+    "clay": 13.6,
+    "carbonate": 30.6,
+    "sulfate": 0.2
+   }
+  },
+  "yungay": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.1,
+   "shares": {
+    "ironOxide": 77.3,
+    "clay": 91.1,
+    "carbonate": 13.4,
+    "sulfate": 0.1
+   }
+  },
+  "nazca": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 20.7,
+   "shares": {
+    "ironOxide": 59.0,
+    "clay": 48.9,
+    "carbonate": 28.6,
+    "sulfate": 0.9
+   }
+  },
+  "payun-matru": {
+   "usable": false,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 81.0,
+   "shares": {
+    "ironOxide": 25.5,
+    "clay": 2.5,
+    "carbonate": 7.3,
+    "sulfate": 2.2
+   },
+   "reason": "vegetation"
+  },
+  "askja": {
+   "usable": false,
+   "reason": "coverage",
+   "cover": 0,
+   "scenes": 0
+  },
+  "rio-tinto": {
+   "usable": false,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 80.8,
+   "shares": {
+    "ironOxide": 10.4,
+    "clay": 5.7,
+    "carbonate": 7.2,
+    "sulfate": 0.2
+   },
+   "reason": "vegetation"
+  },
+  "calatrava": {
+   "usable": false,
+   "cover": 54,
+   "scenes": 3,
+   "organicShare": 70.3,
+   "shares": {
+    "ironOxide": 17.5,
+    "clay": 8.1,
+    "carbonate": 14.2,
+    "sulfate": 0.2
+   },
+   "reason": "vegetation"
+  },
+  "nw-libya": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 92.1,
+    "clay": 33.4,
+    "carbonate": 99.7,
+    "sulfate": 0.0
+   }
+  },
+  "tarso-toh": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 49.1,
+    "clay": 99.3,
+    "carbonate": 0.0,
+    "sulfate": 0.0
+   }
+  },
+  "bayuda": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 93.0,
+    "clay": 99.9,
+    "carbonate": 0.2,
+    "sulfate": 0.0
+   }
+  },
+  "lake-salda": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 40.6,
+   "shares": {
+    "ironOxide": 4.3,
+    "clay": 0.8,
+    "carbonate": 20.1,
+    "sulfate": 0.0
+   }
+  },
+  "hisma": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 78.5,
+    "clay": 90.7,
+    "carbonate": 3.7,
+    "sulfate": 0.2
+   }
+  },
+  "gobi-altai": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.1,
+   "shares": {
+    "ironOxide": 34.5,
+    "clay": 67.1,
+    "carbonate": 33.6,
+    "sulfate": 4.7
+   }
+  },
+  "taryatu-chulutu": {
+   "usable": false,
+   "cover": 90,
+   "scenes": 2,
+   "organicShare": 82.3,
+   "shares": {
+    "ironOxide": 0.2,
+    "clay": 0.4,
+    "carbonate": 1.1,
+    "sulfate": 0.0
+   },
+   "reason": "vegetation"
+  },
+  "mauna-kea": {
+   "usable": false,
+   "reason": "coverage",
+   "cover": 22,
+   "scenes": 10
+  },
+  "nullarbor": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 5.2,
+   "shares": {
+    "ironOxide": 100.0,
+    "clay": 94.5,
+    "carbonate": 82.9,
+    "sulfate": 0.0
+   }
+  },
+  "mcbride": {
+   "usable": false,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 99.9,
+   "shares": {
+    "ironOxide": 0.0,
+    "clay": 0.0,
+    "carbonate": 0.0,
+    "sulfate": 0.0
+   },
+   "reason": "vegetation"
+  },
+  "dorvoljin-district": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 95.2,
+    "clay": 95.1,
+    "carbonate": 11.2,
+    "sulfate": 0.0
+   }
+  },
+  "taklamakan-desert": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 93.6,
+    "clay": 83.1,
+    "carbonate": 17.2,
+    "sulfate": 0.0
+   }
+  },
+  "aralkum": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.2,
+   "shares": {
+    "ironOxide": 24.3,
+    "clay": 32.6,
+    "carbonate": 0.1,
+    "sulfate": 6.0
+   }
+  },
+  "dasht-e-kavir": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 77.7,
+    "clay": 39.5,
+    "carbonate": 31.7,
+    "sulfate": 0.0
+   }
+  },
+  "badain-jaran-desert": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 99.7,
+    "clay": 99.2,
+    "carbonate": 1.3,
+    "sulfate": 0.0
+   }
+  },
+  "harrat-ash-shaam": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 84.4,
+    "clay": 65.1,
+    "carbonate": 54.7,
+    "sulfate": 0.0
+   }
+  },
+  "harrat-lunayyir": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 49.7,
+    "clay": 58.0,
+    "carbonate": 63.0,
+    "sulfate": 0.1
+   }
+  },
+  "karaca-dag": {
+   "usable": false,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 77.6,
+   "shares": {
+    "ironOxide": 54.1,
+    "clay": 4.1,
+    "carbonate": 13.9,
+    "sulfate": 0.0
+   },
+   "reason": "vegetation"
+  },
+  "al-jufra-district": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 47.1,
+    "clay": 91.0,
+    "carbonate": 2.6,
+    "sulfate": 0.0
+   }
+  },
+  "illizi-district": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 90.2,
+    "clay": 99.8,
+    "carbonate": 0.1,
+    "sulfate": 0.0
+   }
+  },
+  "el-abiodh-sidi-cheikh-district": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 100.0,
+    "clay": 97.5,
+    "carbonate": 6.0,
+    "sulfate": 0.4
+   }
+  },
+  "malha-locality": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 86.3,
+    "clay": 100.0,
+    "carbonate": 0.0,
+    "sulfate": 0.0
+   }
+  },
+  "emi-koussi": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.2,
+   "shares": {
+    "ironOxide": 86.8,
+    "clay": 97.8,
+    "carbonate": 0.1,
+    "sulfate": 0.1
+   }
+  },
+  "todra-volcanic-field": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.8,
+   "shares": {
+    "ironOxide": 78.7,
+    "clay": 94.7,
+    "carbonate": 6.0,
+    "sulfate": 0.0
+   }
+  },
+  "atakor-volcanic-field": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 71.3,
+    "clay": 99.4,
+    "carbonate": 1.6,
+    "sulfate": 0.0
+   }
+  },
+  "meidob-volcanic-field": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 16.4,
+   "shares": {
+    "ironOxide": 79.8,
+    "clay": 69.9,
+    "carbonate": 11.7,
+    "sulfate": 0.0
+   }
+  },
+  "the-barrier": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 22.9,
+   "shares": {
+    "ironOxide": 50.0,
+    "clay": 31.6,
+    "carbonate": 11.6,
+    "sulfate": 0.7
+   }
+  },
+  "qikiqtaaluk-region": {
+   "usable": false,
+   "reason": "coverage",
+   "cover": 0,
+   "scenes": 0
+  },
+  "banks-island": {
+   "usable": false,
+   "reason": "coverage",
+   "cover": 0,
+   "scenes": 0
+  },
+  "north-slope-borough": {
+   "usable": false,
+   "reason": "coverage",
+   "cover": 0,
+   "scenes": 0
+  },
+  "san-quintin-municipality": {
+   "usable": false,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 58.5,
+   "shares": {
+    "ironOxide": 41.4,
+    "clay": 6.6,
+    "carbonate": 21.2,
+    "sulfate": 0.2
+   },
+   "reason": "vegetation"
+  },
+  "comondu-la-purisima": {
+   "usable": false,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 65.6,
+   "shares": {
+    "ironOxide": 79.2,
+    "clay": 13.6,
+    "carbonate": 19.4,
+    "sulfate": 0.1
+   },
+   "reason": "vegetation"
+  },
+  "devils-garden": {
+   "usable": false,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 95.6,
+   "shares": {
+    "ironOxide": 0.7,
+    "clay": 0.3,
+    "carbonate": 2.4,
+    "sulfate": 0.0
+   },
+   "reason": "vegetation"
+  },
+  "alligator-lake-volcanic-complex": {
+   "usable": false,
+   "reason": "coverage",
+   "cover": 0,
+   "scenes": 0
+  },
+  "sechura-desert": {
+   "usable": true,
+   "cover": 83,
+   "scenes": 3,
+   "organicShare": 12.9,
+   "shares": {
+    "ironOxide": 35.0,
+    "clay": 6.6,
+    "carbonate": 68.0,
+    "sulfate": 2.4
+   }
+  },
+  "rio-chico-department": {
+   "usable": false,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 76.9,
+   "shares": {
+    "ironOxide": 25.6,
+    "clay": 11.1,
+    "carbonate": 4.7,
+    "sulfate": 0.1
+   },
+   "reason": "vegetation"
+  },
+  "telsen-department": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 20.1,
+   "shares": {
+    "ironOxide": 76.6,
+    "clay": 47.4,
+    "carbonate": 11.7,
+    "sulfate": 0.0
+   }
+  },
+  "uspallata-district": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 45.8,
+   "shares": {
+    "ironOxide": 61.6,
+    "clay": 24.2,
+    "carbonate": 22.3,
+    "sulfate": 1.7
+   }
+  },
+  "crater-basalt-volcanic-field": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 25.3,
+   "shares": {
+    "ironOxide": 78.4,
+    "clay": 56.9,
+    "carbonate": 30.4,
+    "sulfate": 0.1
+   }
+  },
+  "pali-aike-volcanic-field": {
+   "usable": false,
+   "cover": 79,
+   "scenes": 3,
+   "organicShare": 94.4,
+   "shares": {
+    "ironOxide": 0.4,
+    "clay": 0.7,
+    "carbonate": 3.7,
+    "sulfate": 0.0
+   },
+   "reason": "vegetation"
+  },
+  "plumridge-lakes": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.2,
+   "shares": {
+    "ironOxide": 57.9,
+    "clay": 29.3,
+    "carbonate": 1.9,
+    "sulfate": 0.3
+   }
+  },
+  "commonwealth-hill": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 99.9,
+    "clay": 95.8,
+    "carbonate": 5.2,
+    "sulfate": 0.0
+   }
+  },
+  "simpson-desert": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 100.0,
+    "clay": 98.6,
+    "carbonate": 9.5,
+    "sulfate": 0.0
+   }
+  },
+  "yalgoo": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.1,
+   "shares": {
+    "ironOxide": 88.4,
+    "clay": 86.7,
+    "carbonate": 7.8,
+    "sulfate": 0.0
+   }
+  },
+  "bulloo-downs": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 9.1,
+   "shares": {
+    "ironOxide": 86.0,
+    "clay": 86.2,
+    "carbonate": 7.3,
+    "sulfate": 0.5
+   }
+  },
+  "mulyungarie": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 1.6,
+   "shares": {
+    "ironOxide": 100.0,
+    "clay": 97.3,
+    "carbonate": 6.9,
+    "sulfate": 0.0
+   }
+  },
+  "pulpi": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 40.1,
+   "shares": {
+    "ironOxide": 24.7,
+    "clay": 14.9,
+    "carbonate": 40.4,
+    "sulfate": 0.0
+   }
+  },
+  "tenoumer-crater": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 99.9,
+    "clay": 80.9,
+    "carbonate": 36.4,
+    "sulfate": 0.0
+   }
+  },
+  "ouarkziz-crater": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 100.0,
+    "clay": 76.7,
+    "carbonate": 34.2,
+    "sulfate": 0.0
+   }
+  },
+  "tin-bider-crater": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 99.9,
+    "clay": 30.4,
+    "carbonate": 88.2,
+    "sulfate": 0.0
+   }
+  },
+  "gweni-fada-crater": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 69.6,
+    "clay": 100.0,
+    "carbonate": 0.0,
+    "sulfate": 5.2
+   }
+  },
+  "jebel-waqf-as-suwwan": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 99.0,
+    "clay": 3.3,
+    "carbonate": 21.5,
+    "sulfate": 30.5
+   }
+  },
+  "tabun-khara-obo-crater": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.1,
+   "shares": {
+    "ironOxide": 75.4,
+    "clay": 94.0,
+    "carbonate": 20.7,
+    "sulfate": 0.0
+   }
+  },
+  "zhamanshin-crater": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 45.8,
+   "shares": {
+    "ironOxide": 15.1,
+    "clay": 23.4,
+    "carbonate": 35.5,
+    "sulfate": 1.6
+   }
+  },
+  "kara-kul-structure": {
+   "usable": true,
+   "cover": 81,
+   "scenes": 3,
+   "organicShare": 0.7,
+   "shares": {
+    "ironOxide": 55.6,
+    "clay": 68.1,
+    "carbonate": 15.0,
+    "sulfate": 0.1
+   }
+  },
+  "connolly-basin": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 5.1,
+   "shares": {
+    "ironOxide": 84.5,
+    "clay": 83.4,
+    "carbonate": 27.4,
+    "sulfate": 2.2
+   }
+  },
+  "lake-acraman": {
+   "usable": false,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 51.5,
+   "shares": {
+    "ironOxide": 78.6,
+    "clay": 36.6,
+    "carbonate": 22.2,
+    "sulfate": 0.4
+   },
+   "reason": "vegetation"
+  },
+  "pingualuit-crater": {
+   "usable": false,
+   "reason": "coverage",
+   "cover": 0,
+   "scenes": 0
+  },
+  "sierra-madera": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 28.0,
+   "shares": {
+    "ironOxide": 4.6,
+    "clay": 0.8,
+    "carbonate": 71.2,
+    "sulfate": 0.0
+   }
+  },
+  "umm-jirsan-lava-tube": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.5,
+   "shares": {
+    "ironOxide": 34.7,
+    "clay": 41.6,
+    "carbonate": 35.3,
+    "sulfate": 0.1
+   }
+  },
+  "mount-suswa-lava-caves": {
+   "usable": true,
+   "cover": 78,
+   "scenes": 3,
+   "organicShare": 35.0,
+   "shares": {
+    "ironOxide": 3.8,
+    "clay": 1.9,
+    "carbonate": 3.7,
+    "sulfate": 0.0
+   }
+  },
+  "jordan-craters": {
+   "usable": false,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 92.1,
+   "shares": {
+    "ironOxide": 13.6,
+    "clay": 2.7,
+    "carbonate": 4.9,
+    "sulfate": 0.1
+   },
+   "reason": "vegetation"
+  },
+  "kara-bogaz-gol": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 3.2,
+   "shares": {
+    "ironOxide": 23.2,
+    "clay": 4.6,
+    "carbonate": 23.0,
+    "sulfate": 0.6
+   }
+  },
+  "lake-baskunchak": {
+   "usable": false,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 94.4,
+   "shares": {
+    "ironOxide": 9.2,
+    "clay": 0.2,
+    "carbonate": 4.3,
+    "sulfate": 0.0
+   },
+   "reason": "vegetation"
+  },
+  "qattara-depression": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 98.5,
+    "clay": 43.7,
+    "carbonate": 11.2,
+    "sulfate": 0.1
+   }
+  },
+  "bodele-depression": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 33.6,
+    "clay": 100.0,
+    "carbonate": 0.0,
+    "sulfate": 0.0
+   }
+  },
+  "salinas-grandes-cordoba": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 6.6,
+   "shares": {
+    "ironOxide": 2.0,
+    "clay": 0.3,
+    "carbonate": 1.0,
+    "sulfate": 0.0
+   }
+  },
+  "bujaraloz-yardangs": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 33.5,
+   "shares": {
+    "ironOxide": 12.5,
+    "clay": 17.2,
+    "carbonate": 38.2,
+    "sulfate": 0.2
+   }
+  },
+  "laguna-salada": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 1.2,
+   "shares": {
+    "ironOxide": 32.8,
+    "clay": 65.7,
+    "carbonate": 52.3,
+    "sulfate": 0.1
+   }
+  },
+  "kati-thanda-lake-eyre": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 0.0,
+   "shares": {
+    "ironOxide": 80.5,
+    "clay": 45.0,
+    "carbonate": 1.1,
+    "sulfate": 0.8
+   }
+  },
+  "juvvasshoe": {
+   "usable": false,
+   "reason": "coverage",
+   "cover": 0,
+   "scenes": 0
+  },
+  "zackenberg-valley": {
+   "usable": false,
+   "reason": "coverage",
+   "cover": 0,
+   "scenes": 0
+  },
+  "nevado-chachani": {
+   "usable": false,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 58.4,
+   "shares": {
+    "ironOxide": 39.2,
+    "clay": 6.3,
+    "carbonate": 5.4,
+    "sulfate": 4.1
+   },
+   "reason": "vegetation"
+  },
+  "kumtor-arabel-plateau": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 2.8,
+   "shares": {
+    "ironOxide": 22.6,
+    "clay": 24.1,
+    "carbonate": 26.9,
+    "sulfate": 0.2
+   }
+  },
+  "dos-lenguas-rock-glacier": {
+   "usable": true,
+   "cover": 100,
+   "scenes": 3,
+   "organicShare": 1.8,
+   "shares": {
+    "ironOxide": 82.8,
+    "clay": 65.2,
+    "carbonate": 8.8,
+    "sulfate": 1.8
+   }
+  }
+ }
+}

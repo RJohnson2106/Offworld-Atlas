@@ -1,0 +1,827 @@
+[
+ {
+  "id": "dorvoljin-district",
+  "name": "Dörvöljin District",
+  "place": "Zavkhan, Mongolia",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "Asia",
+  "region": "Great Lakes Depression",
+  "lng": 93.87,
+  "lat": 47.75,
+  "iso3": "MNG",
+  "terrain": "The Great Lakes Depression is an endorheic basin in western Mongolia with lake deposits and old shorelines.",
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no analog study of it. Published Mars analog work on Mongolian lakes concerns the Gobi-Altai transition zone and the Valley of the Gobi Lakes, not this basin.",
+  "sources": [
+   {
+    "label": "GSA 2025 abstract on Great Lakes Depression lake deposits",
+    "url": "https://gsa.confex.com/gsa/2025NE/webprogram/Paper407816.html"
+   },
+   {
+    "label": "JpGU 2018 abstract on Gobi-Altai subsaline lakes as a Mars analog",
+    "url": "https://confit.atlas.jp/guide/event/jpgu2018/subject/MIS18-P07/date"
+   },
+   {
+    "label": "Minerals paper on the Valley of the Gobi Lakes",
+    "url": "https://www.mdpi.com/2075-163X/10/9/792"
+   }
+  ]
+ },
+ {
+  "id": "taklamakan-desert",
+  "name": "Taklamakan Desert",
+  "place": "Xinjiang, China",
+  "target": "Mars",
+  "status": "studied",
+  "continent": "Asia",
+  "region": "Taklamakan Desert",
+  "lng": 78.4,
+  "lat": 38.55,
+  "iso3": "CHN",
+  "terrain": "The Taklamakan is a dune desert that is normally dry in winter because of the surrounding mountains.",
+  "analogRationale": "A 2019 JpGU conference abstract measured perchlorate in Taklimakan samples and proposed the desert as a Mars analog, and a 2007 microbial study of Chinese deserts by NASA Ames researchers included a site along its southern edge. Neither source places the work at this exact point in Makit County.",
+  "sources": [
+   {
+    "label": "JpGU 2019 abstract on perchlorate in the Taklimakan Desert",
+    "url": "https://confit.atlas.jp/guide/event/jpgu2019/subject/MIS11-11/detail"
+   },
+   {
+    "label": "NBC News on the 2007 study of microbes in Chinese deserts",
+    "url": "https://www.nbcnews.com/id/wbna17934555"
+   },
+   {
+    "label": "NASA Earth Observatory: Wintry dunes on Earth and Mars",
+    "url": "https://science.nasa.gov/earth/earth-observatory/wintry-dunes-on-earth-and-mars-150904/"
+   }
+  ]
+ },
+ {
+  "id": "aralkum",
+  "name": "Aralkum",
+  "place": "Karakalpakstan, Uzbekistan",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "Asia",
+  "region": "Aral Sea basin",
+  "lng": 60.12,
+  "lat": 44.84,
+  "iso3": "UZB",
+  "terrain": "Dried bed of the Aral Sea, with a salty, light, sandy surface prone to wind erosion.",
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote. A search found no analog study of it.",
+  "sources": [
+   {
+    "label": "UNDP on the Aralkum Desert",
+    "url": "https://www.undp.org/uzbekistan/blog/when-sea-turns-desert-can-nature-return"
+   }
+  ]
+ },
+ {
+  "id": "dasht-e-kavir",
+  "name": "Dasht-e Kavir",
+  "place": "Semnan, Iran",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "Asia",
+  "region": "Dasht-e Kavir",
+  "lng": 53.79,
+  "lat": 34.6,
+  "iso3": "IRN",
+  "terrain": "Large salt desert on the Iranian Plateau with seasonal salt marshes.",
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no analog study of it. A paper on salt polygons in China's Qaidam Basin may name Dasht-e Kavir in passing among salt-polygon sites worldwide; the full paper could not be opened to confirm this.",
+  "sources": [
+   {
+    "label": "NASA Earth Observatory: Dasht-e Kavir",
+    "url": "https://earthobservatory.nasa.gov/images/4382/dasht-e-kavir-great-salt-desert-iran"
+   },
+   {
+    "label": "Paper on polygonal surface structures in the Dalangtan Playa, Qaidam Basin",
+    "url": "https://www.researchgate.net/publication/326303472_The_Polygonal_Surface_Structures_in_the_Dalangtan_Playa_Qaidam_Basin_NW_China_Controlling_Factors_for_Their_Formation_and_Implications_for_Analogous_Martian_Landforms"
+   }
+  ]
+ },
+ {
+  "id": "badain-jaran-desert",
+  "name": "Badain Jaran Desert",
+  "place": "Inner Mongolia, China",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "Asia",
+  "region": "Alxa Plateau",
+  "lng": 102.3,
+  "lat": 40.71,
+  "iso3": "CHN",
+  "terrain": "Sand desert of about 50,000 square kilometers with megadunes 200 to 300 meters tall and desert lakes.",
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote. A search found no analog study of it.",
+  "sources": [
+   {
+    "label": "NASA Earth Observatory: Megadunes and desert lakes in China",
+    "url": "https://earthobservatory.nasa.gov/images/84773/megadunes-and-desert-lakes-in-china"
+   }
+  ]
+ },
+ {
+  "id": "harrat-ash-shaam",
+  "name": "Harrat Ash Shaam",
+  "place": "Mafraq, Jordan",
+  "target": "Moon",
+  "status": "candidate",
+  "continent": "Asia",
+  "region": "Arabian volcanic fields",
+  "lng": 37.583,
+  "lat": 32.333,
+  "iso3": "JOR",
+  "terrain": "Large volcanic field on the Arabian Plate with more than 800 cones and basaltic lava flows.",
+  "analogRationale": "Proposed because it is a young basaltic volcanic field in a dry, remote setting. A search found no analog study at this point in Jordan. A 2019 LPSC abstract treats the \"jubot\" depressions on the field's northwest margin as analogs for Martian pit craters, which is a Mars comparison rather than a lunar one.",
+  "sources": [
+   {
+    "label": "Smithsonian Global Volcanism Program: Harrat Ash Shaam",
+    "url": "https://volcano.si.edu/volcano.cfm?vn=231001"
+   },
+   {
+    "label": "Wikipedia: Harrat al-Sham",
+    "url": "https://en.wikipedia.org/wiki/Harrat_al-Sham"
+   }
+  ]
+ },
+ {
+  "id": "harrat-lunayyir",
+  "name": "Harrat Lunayyir",
+  "place": "Tabuk, Saudi Arabia",
+  "target": "Moon",
+  "status": "candidate",
+  "continent": "Asia",
+  "region": "Arabian volcanic fields",
+  "lng": 37.75,
+  "lat": 25.17,
+  "iso3": "SAU",
+  "terrain": "Volcanic lava field with about 50 cones formed in the past 10,000 years.",
+  "analogRationale": "Proposed because it is a young basaltic volcanic field in a dry, remote setting, and a search found no analog study of it. Lava tubes elsewhere in Saudi Arabia have been described as analogues for Martian lava tubes, but not at this field.",
+  "sources": [
+   {
+    "label": "NASA Earth Observatory: Harratt Lunayyir",
+    "url": "https://science.nasa.gov/earth/earth-observatory/harratt-lunayyir-48355/"
+   },
+   {
+    "label": "Aramco World: Volcanic Arabia",
+    "url": "https://archive.aramcoworld.com/issue/200602/volcanic.arabia.htm"
+   },
+   {
+    "label": "Smithsonian Global Volcanism Program: Harrat Lunayyir",
+    "url": "https://volcano.si.edu/volcano.cfm?vn=231040"
+   }
+  ]
+ },
+ {
+  "id": "karaca-dag",
+  "name": "Karaca Dağ",
+  "place": "Şanlıurfa, Turkey",
+  "target": "Moon",
+  "status": "candidate",
+  "continent": "Asia",
+  "region": "Arabian volcanic fields",
+  "lng": 39.83,
+  "lat": 37.67,
+  "iso3": "TUR",
+  "terrain": "Basaltic shield volcano in southeastern Turkey with younger scoria cones and lava flows.",
+  "analogRationale": "Proposed because it is a young basaltic shield volcano. It is neither very dry nor remote: the screening layers put it in the 250-500 mm rainfall class and 30 to 60 minutes from a city. A search found no analog study of it.",
+  "sources": [
+   {
+    "label": "Smithsonian Global Volcanism Program: Karaca Dag",
+    "url": "https://volcano.si.edu/volcano.cfm?vn=213011"
+   }
+  ]
+ },
+ {
+  "id": "al-jufra-district",
+  "name": "Al-Jufra District",
+  "place": "Al-Jufra, Libya",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "Africa",
+  "region": "Libyan Sahara",
+  "lng": 17.23,
+  "lat": 27.37,
+  "iso3": "LBY",
+  "terrain": "The point is about 35 km from the center coordinates NASA gives for the Haruj volcanic field, a basalt plateau of about 45,000 square kilometers.",
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no analog study of it. A published Icarus study treats megaripples at Wau-an-Namus, farther south in Libya, as an analog for features on Mars, but that work was not at this point.",
+  "sources": [
+   {
+    "label": "NASA Earth Observatory: Haruj Volcanic Field",
+    "url": "https://science.nasa.gov/earth/earth-observatory/haruj-volcanic-field-87939/"
+   },
+   {
+    "label": "Foroutan et al. 2019, Megaripples at Wau-an-Namus, Libya",
+    "url": "https://profiles.si.edu/display/sro_149820"
+   }
+  ]
+ },
+ {
+  "id": "illizi-district",
+  "name": "Illizi District",
+  "place": "Illizi, Algeria",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "Africa",
+  "region": "Algerian Sahara",
+  "lng": 7.38,
+  "lat": 25.48,
+  "iso3": "DZA",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no analog study of it. Published Mars analog proposals in the Algerian Sahara concern other areas, the Ahnet Basin and the Tanezrouft.",
+  "sources": [
+   {
+    "label": "EPSC-DPS 2025 abstract on the Ahnet Basin",
+    "url": "https://meetingorganizer.copernicus.org/EPSC-DPS2025/EPSC-DPS2025-1671.html"
+   },
+   {
+    "label": "EANA 2024 abstract on Tanezrouft salt flat deposits",
+    "url": "https://eana-net.eu/conferences/EANA2024/abstract_show.php?id=63"
+   }
+  ]
+ },
+ {
+  "id": "el-abiodh-sidi-cheikh-district",
+  "name": "El Abiodh Sidi Cheikh District",
+  "place": "El Bayadh, Algeria",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "Africa",
+  "region": "Algerian Sahara",
+  "lng": 1.76,
+  "lat": 31.65,
+  "iso3": "DZA",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no analog study of it. Published Mars analog proposals in the Algerian Sahara concern other areas, the Ahnet Basin and the Tanezrouft.",
+  "sources": [
+   {
+    "label": "EPSC-DPS 2025 abstract on the Ahnet Basin",
+    "url": "https://meetingorganizer.copernicus.org/EPSC-DPS2025/EPSC-DPS2025-1671.html"
+   },
+   {
+    "label": "EANA 2024 abstract on Tanezrouft salt flat deposits",
+    "url": "https://eana-net.eu/conferences/EANA2024/abstract_show.php?id=63"
+   }
+  ]
+ },
+ {
+  "id": "malha-locality",
+  "name": "Malha Locality",
+  "place": "North Darfur, Sudan",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "Africa",
+  "region": "Eastern Sahara",
+  "lng": 24.26,
+  "lat": 19.64,
+  "iso3": "SDN",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no analog study of it. A 2005 GSA abstract uses the Selima Sand Sheet of southern Egypt and adjacent Sudan as an analog for Meridiani Planum, but that work is not tied to this point.",
+  "sources": [
+   {
+    "label": "Maxwell et al. 2005, Stability of Selima Planum, Earth and implications for Meridiani Planum, Mars",
+    "url": "https://gsa.confex.com/gsa/2005AM/webprogram/Paper94956.html"
+   }
+  ]
+ },
+ {
+  "id": "emi-koussi",
+  "name": "Emi Koussi",
+  "place": "Tibesti, Chad",
+  "target": "Mars",
+  "status": "studied",
+  "continent": "Africa",
+  "region": "Tibesti",
+  "lng": 18.53,
+  "lat": 19.8,
+  "iso3": "TCD",
+  "terrain": "High pyroclastic shield volcano at the southeast end of the Tibesti Mountains.",
+  "analogRationale": "Compared with the Martian volcano Elysium Mons in Malin's 1976 Caltech thesis on Elysium and Tibesti, and called its morphological sister in a 2017 Scientific Reports study reported by LSU. The published comparison is to Mars rather than the Moon, so this place is listed under Mars.",
+  "sources": [
+   {
+    "label": "Malin, Comparison of volcanic features of Elysium (Mars) and Tibesti (Earth), Caltech thesis",
+    "url": "https://thesis.caltech.edu/4435/"
+   },
+   {
+    "label": "ScienceDaily on the 2017 Elysium study",
+    "url": "https://www.sciencedaily.com/releases/2017/02/170224092548.htm"
+   },
+   {
+    "label": "Wikipedia: Emi Koussi",
+    "url": "https://en.wikipedia.org/wiki/Emi_Koussi"
+   }
+  ]
+ },
+ {
+  "id": "todra-volcanic-field",
+  "name": "Todra Volcanic Field",
+  "place": "Tchirozérine, Niger",
+  "target": "Moon",
+  "status": "candidate",
+  "continent": "Africa",
+  "region": "Aïr Mountains",
+  "lng": 8.5,
+  "lat": 17.68,
+  "iso3": "NER",
+  "terrain": "Field of about 150 volcanoes in the Aïr region, with products that are mainly basalt and some phonolite and trachyte.",
+  "analogRationale": "Proposed because it is a young basaltic volcanic field in a dry, remote setting. A search found no analog study of it.",
+  "sources": [
+   {
+    "label": "Smithsonian Global Volcanism Program: Todra Volcanic Field",
+    "url": "https://volcano.si.edu/volcano.cfm?vn=225001"
+   },
+   {
+    "label": "Wikipedia: Todra volcanic field",
+    "url": "https://en.wikipedia.org/wiki/Todra_volcanic_field"
+   }
+  ]
+ },
+ {
+  "id": "atakor-volcanic-field",
+  "name": "Atakor Volcanic Field",
+  "place": "Tamanrasset, Algeria",
+  "target": "Moon",
+  "status": "candidate",
+  "continent": "Africa",
+  "region": "Algerian Sahara",
+  "lng": 5.83,
+  "lat": 23.33,
+  "iso3": "DZA",
+  "terrain": "Field of about 450 vents in the Hoggar mountains, with lava flows, lava domes, maars and scoria cones, mostly alkali basalts and basanites.",
+  "analogRationale": "Proposed because it is a young basaltic volcanic field in a dry setting, 3 to 6 hours from a city in the screening layer. A search found no analog study of it.",
+  "sources": [
+   {
+    "label": "Smithsonian Global Volcanism Program: Atakor Volcanic Field",
+    "url": "https://volcano.si.edu/volcano.cfm?vn=225005"
+   },
+   {
+    "label": "Wikipedia: Atakor volcanic field",
+    "url": "https://en.wikipedia.org/wiki/Atakor_volcanic_field"
+   }
+  ]
+ },
+ {
+  "id": "meidob-volcanic-field",
+  "name": "Meidob Volcanic Field",
+  "place": "North Darfur, Sudan",
+  "target": "Moon",
+  "status": "candidate",
+  "continent": "Africa",
+  "region": "Darfur",
+  "lng": 26.47,
+  "lat": 15.32,
+  "iso3": "SDN",
+  "terrain": "Field of about 5,000 square kilometers with nearly 700 vents, where the central region is dominated by trachyte and phonolite.",
+  "analogRationale": "Proposed because it is a young basaltic volcanic field in a dry, remote setting. A search found no analog study of it.",
+  "sources": [
+   {
+    "label": "NASA Earth Observatory: Meidob Volcanic Field",
+    "url": "https://eol.jsc.nasa.gov/Collections/EarthObservatory/articles/MeidobVolcanicField.htm"
+   },
+   {
+    "label": "Smithsonian Global Volcanism Program: Meidob Volcanic Field",
+    "url": "https://volcano.si.edu/volcano.cfm?vn=225050"
+   }
+  ]
+ },
+ {
+  "id": "the-barrier",
+  "name": "The Barrier",
+  "place": "Turkana, Kenya",
+  "target": "Moon",
+  "status": "candidate",
+  "continent": "Africa",
+  "region": "Turkana Basin",
+  "lng": 36.57,
+  "lat": 2.32,
+  "iso3": "KEN",
+  "terrain": "Complex of four volcanoes between Lake Turkana and the Suguta Valley, mostly trachyte on a basalt foundation.",
+  "analogRationale": "Proposed because it is a young volcanic complex in a dry, remote setting. It is mostly trachyte, with basaltic historical eruptions on its flanks. A search found no analog study of it.",
+  "sources": [
+   {
+    "label": "Smithsonian Global Volcanism Program: The Barrier",
+    "url": "https://volcano.si.edu/volcano.cfm?vn=222030"
+   },
+   {
+    "label": "Wikipedia: The Barrier (Kenya)",
+    "url": "https://en.wikipedia.org/wiki/The_Barrier_(Kenya)"
+   }
+  ]
+ },
+ {
+  "id": "qikiqtaaluk-region",
+  "name": "Qikiqtaaluk Region",
+  "place": "Nunavut, Canada",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "North America",
+  "region": "Canadian Arctic",
+  "lng": -88.24,
+  "lat": 70.5,
+  "iso3": "CAN",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no analog study of it. Mars analog work in Nunavut in the search results concerns Haughton crater on Devon Island, farther north.",
+  "sources": [
+   {
+    "label": "The Planetary Society on Haughton crater",
+    "url": "https://www.planetary.org/articles/haughton_crater"
+   }
+  ]
+ },
+ {
+  "id": "banks-island",
+  "name": "Banks Island",
+  "place": "Northwest Territories, Canada",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "North America",
+  "region": "Canadian Arctic",
+  "lng": -121.29,
+  "lat": 74.12,
+  "iso3": "CAN",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no analog study of it. Mars analog work in the Canadian Arctic in the search results concerns other islands such as Devon Island.",
+  "sources": [
+   {
+    "label": "Britannica: Banks Island",
+    "url": "https://www.britannica.com/place/Banks-Island"
+   },
+   {
+    "label": "The Planetary Society on Haughton crater",
+    "url": "https://www.planetary.org/articles/haughton_crater"
+   }
+  ]
+ },
+ {
+  "id": "north-slope-borough",
+  "name": "North Slope Borough",
+  "place": "Alaska, United States",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "North America",
+  "region": "North Slope",
+  "lng": -156.45,
+  "lat": 71.19,
+  "iso3": "USA",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no dedicated analog study of it. A University of Alaska Fairbanks page shows an aerial photo of polygons at Barrow beside Mars orbiter images, which is a visual comparison rather than a study of this point.",
+  "sources": [
+   {
+    "label": "University of Alaska Fairbanks: Permafrost on Mars",
+    "url": "https://ine.uaf.edu/werc/projects/permafrost/mars.htm"
+   }
+  ]
+ },
+ {
+  "id": "san-quintin-municipality",
+  "name": "San Quintín Municipality",
+  "place": "Baja California, Mexico",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "North America",
+  "region": "Baja California Peninsula",
+  "lng": -115.66,
+  "lat": 29.84,
+  "iso3": "MEX",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote. A search found no analog study of it.",
+  "sources": []
+ },
+ {
+  "id": "comondu-la-purisima",
+  "name": "Comondú-La Purísima Volcanic Field",
+  "place": "Baja California Sur, Mexico",
+  "target": "Moon",
+  "status": "candidate",
+  "continent": "North America",
+  "region": "Baja California Peninsula",
+  "lng": -111.92,
+  "lat": 26,
+  "iso3": "MEX",
+  "terrain": "Miocene to Quaternary field west of the Sierra de la Giganta with basaltic and andesitic lava flows and cinder cones.",
+  "analogRationale": "Proposed because it is a volcanic field with basaltic and andesitic lavas, whose youngest cones may be Holocene, in a dry, remote setting. A search found no analog study of it.",
+  "sources": [
+   {
+    "label": "Smithsonian Global Volcanism Program: Comondú-La Purísima",
+    "url": "https://volcano.si.edu/volcano.cfm?vn=341012"
+   }
+  ]
+ },
+ {
+  "id": "devils-garden",
+  "name": "Devils Garden",
+  "place": "Oregon, United States",
+  "target": "Moon",
+  "status": "studied",
+  "continent": "North America",
+  "region": "Oregon High Desert",
+  "lng": -120.861,
+  "lat": 43.512,
+  "iso3": "USA",
+  "terrain": "Basaltic lava field of about 117 square kilometers fed by a fissure eruption, with spatter cones and lava tubes including Derrick Cave.",
+  "analogRationale": "A 2026 Geological Society of America abstract calls this lava flow field a strong planetary analog but does not name the Moon specifically. Apollo astronauts trained at other central Oregon sites such as Fort Rock and Hole-in-the-Ground, and the account read does not mention Devils Garden.",
+  "sources": [
+   {
+    "label": "GSA 2026 abstract: Devil's Garden Lava Flow Field, Oregon: A Planetary Analog",
+    "url": "https://gsameetings.secure-platform.com/ne26/solicitations/103009/sessiongallery/schedule/items/95869/application/13602"
+   },
+   {
+    "label": "USGS: Devils Garden lava field",
+    "url": "https://www.usgs.gov/volcanoes/devils-garden-lava-field"
+   },
+   {
+    "label": "KATU on Apollo training in central Oregon",
+    "url": "https://katu.com/amazing-america/how-central-oregon-lava-fields-helped-train-apollo-astronauts-for-the-moon-landing-space-nasa-science-learning-education-local-seti-aliens-safety-planning-mission"
+   }
+  ]
+ },
+ {
+  "id": "alligator-lake-volcanic-complex",
+  "name": "Alligator Lake Volcanic Complex",
+  "place": "Yukon, Canada",
+  "target": "Moon",
+  "status": "candidate",
+  "continent": "North America",
+  "region": "Southern Yukon",
+  "lng": -135.42,
+  "lat": 60.42,
+  "iso3": "CAN",
+  "terrain": "Two cinder cones capping a small shield volcano, with lava flows extending up to 6 km.",
+  "analogRationale": "Proposed because it is a young basaltic volcanic field in a cold setting. It is neither very dry nor remote: the screening layer puts it in the 250-500 mm rainfall class, and it is near the city of Whitehorse. A search found no analog study of it.",
+  "sources": [
+   {
+    "label": "Smithsonian Global Volcanism Program: Alligator Lake",
+    "url": "https://volcano.si.edu/volcano.cfm?vn=320020"
+   },
+   {
+    "label": "Wikipedia: Alligator Lake volcanic complex",
+    "url": "https://en.wikipedia.org/wiki/Alligator_Lake_volcanic_complex"
+   }
+  ]
+ },
+ {
+  "id": "sechura-desert",
+  "name": "Sechura Desert",
+  "place": "Piura, Peru",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "South America",
+  "region": "Sechura Desert",
+  "lng": -80.51,
+  "lat": -5.97,
+  "iso3": "PER",
+  "terrain": "Coastal desert in northern Peru.",
+  "analogRationale": "Proposed because it falls in a very dry rainfall class, and a search found no analog study of it. Mars analog work in Peru in the search results concerns a different desert, the Pampas de La Joya in the south.",
+  "sources": [
+   {
+    "label": "Conference paper on the Pampas de La Joya Desert",
+    "url": "https://sciforum.net/paper/5371"
+   }
+  ]
+ },
+ {
+  "id": "rio-chico-department",
+  "name": "Río Chico Department",
+  "place": "Santa Cruz, Argentina",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "South America",
+  "region": "Patagonia",
+  "lng": -71.37,
+  "lat": -48.69,
+  "iso3": "ARG",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no analog study of it. A 2026 EPSC abstract presents megaflood landforms along the Santa Cruz River, farther south in the province, as an analog for Martian outflow channels, but that work was not at this point.",
+  "sources": [
+   {
+    "label": "EPSC 2026 abstract on the Santa Cruz River megaflood",
+    "url": "https://meetingorganizer.copernicus.org/EPSC2026/EPSC2026-398.html"
+   }
+  ]
+ },
+ {
+  "id": "telsen-department",
+  "name": "Telsen Department",
+  "place": "Chubut, Argentina",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "South America",
+  "region": "Patagonia",
+  "lng": -66.45,
+  "lat": -42.81,
+  "iso3": "ARG",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote. A search found no analog study of it.",
+  "sources": []
+ },
+ {
+  "id": "uspallata-district",
+  "name": "Uspallata District",
+  "place": "Mendoza, Argentina",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "South America",
+  "region": "Mendoza Andes",
+  "lng": -69.26,
+  "lat": -32.84,
+  "iso3": "ARG",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is moderately remote (3 to 6 hours from a city in the screening layer). A search found no analog study of it.",
+  "sources": []
+ },
+ {
+  "id": "crater-basalt-volcanic-field",
+  "name": "Crater Basalt Volcanic Field",
+  "place": "Chubut, Argentina",
+  "target": "Moon",
+  "status": "candidate",
+  "continent": "South America",
+  "region": "Patagonia",
+  "lng": -70.194,
+  "lat": -42.018,
+  "iso3": "ARG",
+  "terrain": "Quaternary field of scoria and spatter cones with lava flows, in the back-arc of northern Patagonia.",
+  "analogRationale": "Proposed because it is a young basaltic volcanic field in a dry, remote setting. A search found no analog study of it.",
+  "sources": [
+   {
+    "label": "Smithsonian Global Volcanism Program: Crater Basalt",
+    "url": "https://volcano.si.edu/volcano.cfm?vn=358025"
+   },
+   {
+    "label": "Pécskay, Haller and Németh 2007, K/Ar geochronology of the field",
+    "url": "https://core.ac.uk/download/322799831.pdf"
+   }
+  ]
+ },
+ {
+  "id": "pali-aike-volcanic-field",
+  "name": "Pali-Aike Volcanic Field",
+  "place": "Santa Cruz, Argentina",
+  "target": "Moon",
+  "status": "studied",
+  "continent": "South America",
+  "region": "Patagonia",
+  "lng": -69.698,
+  "lat": -52.082,
+  "iso3": "ARG",
+  "terrain": "Pleistocene to Holocene field of maars, scoria and spatter cones and lava flows.",
+  "analogRationale": "A 2017 EGU abstract used a small spatter-cone crater in this field as a case study of magnetic signatures in analogue craters and lava flows, for exploration of surfaces like Mars and the Moon. The work was on that crater, not this exact point, and the coordinates printed in the abstract appear to contain errors.",
+  "sources": [
+   {
+    "label": "Ordóñez Cencerrado, Kilian and Díaz-Michelena, EGU 2017 abstract",
+    "url": "https://meetingorganizer.copernicus.org/EGU2017/EGU2017-651.pdf"
+   },
+   {
+    "label": "Smithsonian Global Volcanism Program: Pali-Aike",
+    "url": "https://volcano.si.edu/volcano.cfm?vn=358080"
+   }
+  ]
+ },
+ {
+  "id": "plumridge-lakes",
+  "name": "Plumridge Lakes locality",
+  "place": "Western Australia, Australia",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "Oceania",
+  "region": "Great Victoria Desert",
+  "lng": 124.1,
+  "lat": -29.84,
+  "iso3": "AUS",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no analog study of it. A published review of Australian Mars analogues refers to central desert regions in general and was not found to name this area.",
+  "sources": [
+   {
+    "label": "West et al. 2010, Testing technologies and strategies for exploration in Australian Mars analogues",
+    "url": "https://researchportalplus.anu.edu.au/en/publications/testing-technologies-and-strategies-for-exploration-in-australian/"
+   }
+  ]
+ },
+ {
+  "id": "commonwealth-hill",
+  "name": "Commonwealth Hill",
+  "place": "South Australia, Australia",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "Oceania",
+  "region": "South Australia Outback",
+  "lng": 133.24,
+  "lat": -29.84,
+  "iso3": "AUS",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no analog study of it. The nearest analog work found is on the Moon Plain near Coober Pedy, about 190 km to the northeast.",
+  "sources": [
+   {
+    "label": "MESA Journal: Moon Plain, Martian testing ground",
+    "url": "https://www.energymining.sa.gov.au/industry/geological-survey/mesa-journal/previous-feature-articles/moon_plain_martian_testing_ground"
+   }
+  ]
+ },
+ {
+  "id": "simpson-desert",
+  "name": "Simpson Desert",
+  "place": "Northern Territory, Australia",
+  "target": "Mars",
+  "status": "studied",
+  "continent": "Oceania",
+  "region": "Simpson Desert",
+  "lng": 136.76,
+  "lat": -23.56,
+  "iso3": "AUS",
+  "terrain": "Linear dune desert in central Australia.",
+  "analogRationale": "The Smithsonian's National Air and Space Museum describes the Simpson Desert as an ideal environment for testing ideas about the Martian surface and studies its linear dunes in the field. No source placed that work at this exact point, in the Anatye locality.",
+  "sources": [
+   {
+    "label": "Smithsonian National Air and Space Museum: Terrestrial field studies, Simpson Desert",
+    "url": "https://airandspace.si.edu/research/projects/terrestrial-field-studies-simpson-desert-australia"
+   },
+   {
+    "label": "Air and Space Quarterly: Drones in the dead heart",
+    "url": "https://airandspace.si.edu/air-and-space-quarterly/fall-2022/drones-dead-heart"
+   }
+  ]
+ },
+ {
+  "id": "yalgoo",
+  "name": "Yalgoo",
+  "place": "Western Australia, Australia",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "Oceania",
+  "region": "Western Australia Outback",
+  "lng": 117.07,
+  "lat": -27.37,
+  "iso3": "AUS",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no analog study of it. Published work compares acidic and saline lakes on the Yilgarn Craton with Terra Sirenum on Mars, but it was not found to include this locality.",
+  "sources": [
+   {
+    "label": "Eos: What Australian lakes showed us about Martian hydrology",
+    "url": "https://eos.org/research-spotlights/what-australian-lakes-showed-us-about-martian-hydrology"
+   }
+  ]
+ },
+ {
+  "id": "bulloo-downs",
+  "name": "Bulloo Downs",
+  "place": "Queensland, Australia",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "Oceania",
+  "region": "Southwest Queensland",
+  "lng": 142.38,
+  "lat": -28.61,
+  "iso3": "AUS",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no analog study of it. A Cosmos magazine article describes the wider Channel Country as an analogue of Mars but does not name this locality.",
+  "sources": [
+   {
+    "label": "Cosmos: The spiderweb of Cooper Creek looks like Mars",
+    "url": "https://cosmosmagazine.com/earth/earth-sciences/the-spiderweb-of-cooper-creek-looks-like-mars"
+   }
+  ]
+ },
+ {
+  "id": "mulyungarie",
+  "name": "Mulyungarie",
+  "place": "South Australia, Australia",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "Oceania",
+  "region": "South Australia Outback",
+  "lng": 140.98,
+  "lat": -31.05,
+  "iso3": "AUS",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class and is remote, and a search found no analog study of it. Published work on Australian Mars analogue sites highlights the Arkaroola region in South Australia, not this locality.",
+  "sources": [
+   {
+    "label": "The geology of Australian Mars analogue sites",
+    "url": "https://researchers.mq.edu.au/en/publications/the-geology-of-australian-mars-analogue-sites/"
+   }
+  ]
+ },
+ {
+  "id": "pulpi",
+  "name": "Pulpí",
+  "place": "Almería, Spain",
+  "target": "Mars",
+  "status": "candidate",
+  "continent": "Europe",
+  "region": "Almería",
+  "lng": -1.76,
+  "lat": 37.44,
+  "iso3": "ESP",
+  "terrain": null,
+  "analogRationale": "Proposed because it falls in a very dry rainfall class for Europe, and a search found no analog study of this point. It is not remote. Published ExoMars instrument trials and rover testing took place in the Tabernas Desert, about 70 km to the southwest.",
+  "sources": [
+   {
+    "label": "Raman spectroscopy and planetary exploration: Testing the ExoMars/RLS system at the Tabernas Desert",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0026265X21002332"
+   },
+   {
+    "label": "Le Petit Journal on the Charlie rover test in the Tabernas Desert",
+    "url": "https://lepetitjournal.com/andalousie/actualites/desert-de-tabernas-le-robot-charlie-sentraine-en-andalousie-chercher-la-vie-sur-mars-455019"
+   }
+  ]
+ }
+]

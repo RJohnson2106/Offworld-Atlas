@@ -1,0 +1,67 @@
+{
+ "world": "Earth",
+ "terrain": {
+  "118": {
+   "grid": 118,
+   "scales": [
+    {
+     "lag": 118,
+     "rms": 39.33
+    },
+    {
+     "lag": 236,
+     "rms": 73.63
+    },
+    {
+     "lag": 472,
+     "rms": 130.26
+    },
+    {
+     "lag": 944,
+     "rms": 217.97
+    },
+    {
+     "lag": 1888,
+     "rms": 344.27
+    }
+   ],
+   "hurst": 0.783,
+   "steeperThan15": 62.1
+  },
+  "463": {
+   "grid": 463,
+   "scales": [
+    {
+     "lag": 463,
+     "rms": 112.78
+    },
+    {
+     "lag": 926,
+     "rms": 201.77
+    },
+    {
+     "lag": 1852,
+     "rms": 330.41
+    },
+    {
+     "lag": 3704,
+     "rms": 495.3
+    },
+    {
+     "lag": 7408,
+     "rms": 706.44
+    }
+   ],
+   "hurst": 0.659,
+   "steeperThan15": 42.7
+  }
+ },
+ "physical": {
+  "sunlight": 355.6,
+  "dayHours": 24.0,
+  "gravity": 9.82,
+  "pressureMb": 742.7089230683107,
+  "airColumnKg": 7563.227322487889,
+  "meanElevation": 2647
+ }
+}

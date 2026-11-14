@@ -1,0 +1,40 @@
+{
+ "world": "Mars",
+ "terrain": {
+  "463": {
+   "grid": 463,
+   "scales": [
+    {
+     "lag": 463,
+     "rms": 27.25
+    },
+    {
+     "lag": 926,
+     "rms": 52.96
+    },
+    {
+     "lag": 1852,
+     "rms": 97.86
+    },
+    {
+     "lag": 3704,
+     "rms": 167.31
+    },
+    {
+     "lag": 7408,
+     "rms": 255.27
+    }
+   ],
+   "hurst": 0.811,
+   "steeperThan15": 1.1
+  }
+ },
+ "physical": {
+  "sunlight": 169.7,
+  "dayHours": 24.66,
+  "gravity": 3.73,
+  "pressureMb": 7.876142188466871,
+  "airColumnKg": 211.15662703664535,
+  "meanElevation": -2352
+ }
+}

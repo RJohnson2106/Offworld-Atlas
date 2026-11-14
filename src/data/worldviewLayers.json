@@ -1,0 +1,149 @@
+[
+ {
+  "id": "MODIS_Terra_L3_Land_Surface_Temp_Monthly_Day",
+  "label": "Land surface temperature, day",
+  "nasaTitle": "Land Surface Temperature (L3, Monthly, Day, MODIS, Terra)",
+  "tiles": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_L3_Land_Surface_Temp_Monthly_Day/default/2026-10-01/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png",
+  "maxzoom": 6,
+  "date": "2026-10-01",
+  "period": "month",
+  "url": "https://worldview.earthdata.nasa.gov/?l=MODIS_Terra_L3_Land_Surface_Temp_Monthly_Day&t=2026-10-01",
+  "legend": {
+   "stops": [
+    "#c900ff",
+    "#4d00ff",
+    "#0047ff",
+    "#00e6ff",
+    "#66ff12",
+    "#dbff00",
+    "#ffc100",
+    "#ff5e00",
+    "#ff0100"
+   ],
+   "ticks": [
+    "−73 °C",
+    "77 °C"
+   ]
+  }
+ },
+ {
+  "id": "MODIS_Terra_L3_Land_Surface_Temp_Monthly_Night",
+  "label": "Land surface temperature, night",
+  "nasaTitle": "Land Surface Temperature (L3, Monthly, Night, MODIS, Terra)",
+  "tiles": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_L3_Land_Surface_Temp_Monthly_Night/default/2026-10-01/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png",
+  "maxzoom": 6,
+  "date": "2026-10-01",
+  "period": "month",
+  "url": "https://worldview.earthdata.nasa.gov/?l=MODIS_Terra_L3_Land_Surface_Temp_Monthly_Night&t=2026-10-01",
+  "legend": {
+   "stops": [
+    "#c900ff",
+    "#4d00ff",
+    "#0047ff",
+    "#00e6ff",
+    "#66ff12",
+    "#dbff00",
+    "#ffc100",
+    "#ff5e00",
+    "#ff0100"
+   ],
+   "ticks": [
+    "−73 °C",
+    "77 °C"
+   ]
+  }
+ },
+ {
+  "id": "MODIS_Terra_L3_Snow_Cover_Monthly_Average_Pct",
+  "label": "Snow cover",
+  "nasaTitle": "Snow Cover (L3, Monthly Average Percent, MODIS, Terra)",
+  "tiles": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_L3_Snow_Cover_Monthly_Average_Pct/default/2026-10-01/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png",
+  "maxzoom": 6,
+  "date": "2026-10-01",
+  "period": "month",
+  "url": "https://worldview.earthdata.nasa.gov/?l=MODIS_Terra_L3_Snow_Cover_Monthly_Average_Pct&t=2026-10-01",
+  "legend": {
+   "stops": [
+    "#00ff00",
+    "#f0f08b",
+    "#f0d284",
+    "#f0d291",
+    "#f0b489",
+    "#f09681",
+    "#f0968e",
+    "#f07f80",
+    "#ff0000"
+   ],
+   "ticks": [
+    "1%",
+    "100%"
+   ]
+  }
+ },
+ {
+  "id": "MERRA2_Dust_Surface_Mass_Concentration_Monthly",
+  "label": "Dust near the surface",
+  "nasaTitle": "Dust Surface Mass Concentration (Monthly, MERRA2)",
+  "tiles": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MERRA2_Dust_Surface_Mass_Concentration_Monthly/default/2026-08-01/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png",
+  "maxzoom": 6,
+  "date": "2026-08-01",
+  "period": "month",
+  "url": "https://worldview.earthdata.nasa.gov/?l=MERRA2_Dust_Surface_Mass_Concentration_Monthly&t=2026-08-01",
+  "note": "From NASA's MERRA-2 weather model, not a direct measurement.",
+  "legend": {
+   "stops": [
+    "#ffffe5",
+    "#fee392",
+    "#fec654",
+    "#fea937",
+    "#f98d23",
+    "#ec7114",
+    "#d65808",
+    "#bb4402",
+    "#662506"
+   ],
+   "ticks": [
+    "0 µg/m³",
+    "90 µg/m³"
+   ]
+  }
+ },
+ {
+  "id": "MODIS_Terra_L3_NDVI_Monthly",
+  "label": "Vegetation index",
+  "nasaTitle": "Vegetation Index (L3, Monthly, MODIS, Terra)",
+  "tiles": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_L3_NDVI_Monthly/default/2026-10-01/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png",
+  "maxzoom": 7,
+  "date": "2026-10-01",
+  "period": "month",
+  "url": "https://worldview.earthdata.nasa.gov/?l=MODIS_Terra_L3_NDVI_Monthly&t=2026-10-01",
+  "legend": {
+   "stops": [
+    "#f1ecec",
+    "#e1d2c6",
+    "#b4a596",
+    "#a18063",
+    "#96ba20",
+    "#56a101",
+    "#2e8000",
+    "#006400",
+    "#001801"
+   ],
+   "ticks": [
+    "0.0",
+    "1.0"
+   ]
+  }
+ },
+ {
+  "id": "VIIRS_NOAA20_CorrectedReflectance_TrueColor",
+  "label": "Satellite view",
+  "nasaTitle": "Corrected Reflectance (True Color, VIIRS, NOAA-20)",
+  "tiles": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_NOAA20_CorrectedReflectance_TrueColor/default/2026-11-11/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpeg",
+  "maxzoom": 9,
+  "date": "2026-11-11",
+  "period": "day",
+  "url": "https://worldview.earthdata.nasa.gov/?l=VIIRS_NOAA20_CorrectedReflectance_TrueColor&t=2026-11-11",
+  "note": "Black areas had no daylight that day."
+ }
+]
