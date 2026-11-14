@@ -13,7 +13,7 @@ approximate or come from the screening grid rather than a studied spot; the site
 The globe shows a number per continent, which splits into numbered regions as you zoom in, then
 into named places. The groups are worked out from each site's `continent` and `region` fields.
 
-## Run it
+## How to run it
 
 Needs Node.js. No map key or backend.
 
