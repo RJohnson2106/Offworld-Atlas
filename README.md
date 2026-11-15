@@ -26,6 +26,8 @@ Open http://localhost:5173.
 
 For the production build: `npm run build`, then `npm run preview` (http://localhost:4173).
 
+ALTERNATIVELY: https://rjohnson2106.github.io/Offworld-Atlas/
+
 ## Add your site data
 
 | What you want to change | Where |
