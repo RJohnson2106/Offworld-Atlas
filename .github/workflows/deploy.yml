@@ -47,6 +47,25 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Records each deployment as a release, so the Releases page always shows the current site link.
+  release:
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Publish a release with the live link
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PAGE_URL: ${{ needs.deploy.outputs.page_url }}
+          TAG: deploy-${{ github.run_number }}
+        run: |
+          printf 'Live site: %s\n\nBuilt from commit %s on %s.\n' "$PAGE_URL" "$GITHUB_SHA" "$(date -u +%Y-%m-%d)" > notes.md
+          gh release create "$TAG" --target "$GITHUB_SHA" --title "Offworld Atlas, deployment ${{ github.run_number }}" --notes-file notes.md --latest
