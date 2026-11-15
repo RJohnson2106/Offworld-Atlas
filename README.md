@@ -15,6 +15,8 @@ into named places. The groups are worked out from each site's `continent` and `r
 
 ## How to run it
 
+You can view an already compiled version of the website **here**: https://rjohnson2106.github.io/Offworld-Atlas/
+
 Needs Node.js. No map key or backend.
 
 ```
@@ -26,7 +28,6 @@ Open http://localhost:5173.
 
 For the production build: `npm run build`, then `npm run preview` (http://localhost:4173).
 
-ALTERNATIVELY: https://rjohnson2106.github.io/Offworld-Atlas/
 
 ## Add your site data
 
