@@ -34,6 +34,8 @@ parser.add_argument("--lens", type=float, default=85.0)
 parser.add_argument("--shift-x", type=float, default=0.0)
 parser.add_argument("--shift-y", type=float, default=0.0)
 parser.add_argument("--ortho-scale", type=float, default=2.0)
+parser.add_argument("--tint", choices=["split", "moon", "mars", "ramp"], default="split",
+                    help="split: half Moon, half Mars. moon or mars: one colour. ramp: a map of where the split line can go")
 args = parser.parse_args(argv)
 
 MOON = np.array([0.80, 0.79, 0.76], dtype=np.float32)
@@ -89,11 +91,20 @@ u = (xx + 0.5) / tex - 0.5  # east positive
 v = 0.5 - (yy + 0.5) / tex  # north positive
 angle = math.radians(args.split_angle)
 side = u * math.cos(angle) - v * math.sin(angle)  # signed distance east of the split line, in tile widths
-blend = np.clip(side * tex / (1.5 * tex / 2048) + 0.5, 0, 1)[..., None]
+if args.tint == "moon":
+    blend = np.zeros((tex, tex, 1), dtype=np.float32)
+elif args.tint == "mars":
+    blend = np.ones((tex, tex, 1), dtype=np.float32)
+else:
+    blend = np.clip(side * tex / (1.5 * tex / 2048) + 0.5, 0, 1)[..., None]
 colour = MOON * (1 - blend) + MARS * blend
 colour = colour * (1 - ink[..., None])
+RAMP = args.tint == "ramp"
+if RAMP:
+    # Each point carries how far east of the centre line it is, so a web page can move the split.
+    colour = np.repeat(np.clip(0.5 + side * 0.7, 0, 1)[..., None], 3, axis=2).astype(np.float32)
 
-image = bpy.data.images.new("relief-colour", tex, tex, alpha=False)
+image = bpy.data.images.new("relief-colour", tex, tex, alpha=False, float_buffer=RAMP)
 rgba = np.ones((tex, tex, 4), dtype=np.float32)
 rgba[..., :3] = colour[::-1]  # Blender image rows run bottom to top
 image.pixels.foreach_set(rgba.ravel())
@@ -102,7 +113,9 @@ image.pack()
 # ---------------------------------------------------------------- mesh
 bpy.ops.wm.read_factory_settings(use_empty=True)
 # read_factory_settings drops data blocks, so the image is rebuilt after it.
-image = bpy.data.images.new("relief-colour", tex, tex, alpha=False)
+image = bpy.data.images.new("relief-colour", tex, tex, alpha=False, float_buffer=RAMP)
+if RAMP:
+    image.colorspace_settings.name = "Non-Color"
 image.pixels.foreach_set(rgba.ravel())
 image.pack()
 
@@ -173,7 +186,13 @@ def material(name, colour=None, texture=None, roughness=0.92):
         node.image = texture
         node.interpolation = "Cubic"
         node.extension = "EXTEND"
-        mat.node_tree.links.new(node.outputs["Color"], bsdf.inputs["Base Color"])
+        if RAMP:
+            emission = nodes.new("ShaderNodeEmission")
+            mat.node_tree.links.new(node.outputs["Color"], emission.inputs["Color"])
+            surface_out = next(n for n in nodes if n.type == "OUTPUT_MATERIAL")
+            mat.node_tree.links.new(emission.outputs["Emission"], surface_out.inputs["Surface"])
+        else:
+            mat.node_tree.links.new(node.outputs["Color"], bsdf.inputs["Base Color"])
     else:
         bsdf.inputs["Base Color"].default_value = (*colour, 1)
     return mat
@@ -197,6 +216,9 @@ scene.render.image_settings.color_mode = "RGBA"
 scene.render.image_settings.color_depth = "16"
 scene.view_settings.view_transform = "Standard"
 scene.view_settings.look = "None"
+if RAMP:
+    scene.view_settings.view_transform = "Raw"
+    scene.cycles.use_denoising = False
 
 device = "CPU"
 try:

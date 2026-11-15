@@ -390,6 +390,7 @@ export default function App() {
         candidates={candidateCount}
         countries={countryCount}
         leaving={landing === 'leaving'}
+        reducedMotion={prefersReducedMotion()}
         onEnter={() => leaveLanding(false)}
         onTour={() => leaveLanding(true)}
       />
