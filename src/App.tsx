@@ -16,12 +16,24 @@ import { SitePanel } from './components/SitePanel';
 import type { DroneStatus } from './components/SitePanel';
 import { basemap } from './map/basemap';
 import { buildTour, Tour } from './components/Tour';
+import { Landing } from './components/Landing';
 
 // Three.js is only fetched when someone enters a drone view.
 const DroneView = lazy(() => import('./drone/DroneView'));
 
 const OVERVIEW: AtlasState = { phase: 'overview', siteId: null };
 const DRONE_EXIT_FADE_MS = 190;
+const LANDING_FADE_MS = 380;
+const ENTERED_KEY = 'offworld-atlas-entered';
+
+/** The landing page is shown once per browser tab. Automated checks skip it with ?e2e. */
+function skipLanding(): boolean {
+  try {
+    return new URLSearchParams(window.location.search).has('e2e') || window.sessionStorage.getItem(ENTERED_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
 
 function canUseWebGL(): boolean {
   try {
@@ -59,6 +71,14 @@ export default function App() {
   const [droneExiting, setDroneExiting] = useState(false);
   const [heightScale, setHeightScale] = useState<number>(DEFAULT_HEIGHT_SCALE);
   const [tourIndex, setTourIndex] = useState<number | null>(null);
+  const [landing, setLanding] = useState<'shown' | 'leaving' | 'gone'>(() => (skipLanding() ? 'gone' : 'shown'));
+  const landingRef = useRef(landing);
+  landingRef.current = landing;
+  const candidateCount = useMemo(() => analogSites.filter((entry) => entry.status === 'candidate').length, []);
+  const countryCount = useMemo(
+    () => new Set(analogSites.filter((entry) => entry.status === 'candidate').map((entry) => entry.country)).size,
+    [],
+  );
   const tourStops = useMemo(() => buildTour(analogSites), []);
 
   const directorRef = useRef<CameraDirector | null>(null);
@@ -136,6 +156,24 @@ export default function App() {
     setNewOnly(newOnlyBeforeTour.current);
   }, []);
 
+  /** Fade the landing page out, then optionally start the guided tour. */
+  const leaveLanding = useCallback(
+    (startTour: boolean) => {
+      if (landingRef.current !== 'shown') return;
+      try {
+        window.sessionStorage.setItem(ENTERED_KEY, '1');
+      } catch {
+        // Private browsing can refuse storage. The page still opens.
+      }
+      setLanding('leaving');
+      window.setTimeout(() => {
+        setLanding('gone');
+        if (startTour) showStop(0);
+      }, prefersReducedMotion() ? 0 : LANDING_FADE_MS);
+    },
+    [showStop],
+  );
+
   const enterDrone = useCallback(() => {
     const current = analogSites.find((candidate) => candidate.id === atlasRef.current.siteId);
     if (!current?.droneScene || droneRef.current || atlasRef.current.phase !== 'local') return;
@@ -200,13 +238,14 @@ export default function App() {
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key !== 'Escape') return;
-      if (droneRef.current) exitDrone();
+      if (landingRef.current !== 'gone') leaveLanding(false);
+      else if (droneRef.current) exitDrone();
       else if (tourIndexRef.current !== null) endTour();
       else back();
     };
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
-  }, [back, exitDrone, endTour]);
+  }, [back, exitDrone, endTour, leaveLanding]);
 
   useEffect(() => {
     const onPointer = () => {
@@ -239,8 +278,10 @@ export default function App() {
   const panelOpen = phase === 'arriving' || phase === 'local';
 
   return (
+    <>
     <main
       className="atlas"
+      inert={landing === 'shown'}
       data-phase={phase}
       data-site={siteId ?? ''}
       data-map={mapAvailable ? 'live' : 'unavailable'}
@@ -344,5 +385,15 @@ export default function App() {
         {announcement(atlas)}
       </p>
     </main>
+    {landing !== 'gone' && (
+      <Landing
+        candidates={candidateCount}
+        countries={countryCount}
+        leaving={landing === 'leaving'}
+        onEnter={() => leaveLanding(false)}
+        onTour={() => leaveLanding(true)}
+      />
+    )}
+    </>
   );
 }
