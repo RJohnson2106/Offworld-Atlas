@@ -1098,3 +1098,10 @@ details[open] > summary .section-bar__count::after {
     left: 50%;
   }
 }
+
+/* The ranking shows its own position numbers, so the list's built-in ones are turned off. */
+.ranking ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
